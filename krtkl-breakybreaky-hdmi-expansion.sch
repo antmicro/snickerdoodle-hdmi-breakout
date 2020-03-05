@@ -1247,7 +1247,7 @@ Board-to-board connector
 Text Notes 7550 5500 0    91   ~ 18
 LEDs
 Text Notes 10800 1500 0    91   ~ 18
-3V3 to 5V0 step-up converter (2A output)
+3V3 to 5V0 step-up converter
 Text Notes 2300 1500 0    91   ~ 18
 HDMI connector
 Text Notes 7050 1500 0    91   ~ 18
@@ -1328,4 +1328,30 @@ F 3 "" H 7700 9850 50  0001 C CNN
 	1    7700 9500
 	1    0    0    -1  
 $EndComp
+Text Notes 950  1840 0    50   ~ 0
+TODO: Update J2 schematic symbol
+Text Notes 1190 4040 0    50   ~ 0
+TODO: Connect shields together and connect the shield ground to system GND with a BLM choke
+Text Notes 680  5650 0    50   ~ 0
+TODO: Check orientation and pinout before routing
+Text Notes 2610 9690 0    50   ~ 0
+Optional bypass of HPD which will not ivert logic state at this signal\n
+Text Notes 11750 9220 0    50   ~ 0
+TODO: add schematic sections, add logotypes and branding\n
+Text Notes 7430 8170 0    50   ~ 0
+General purpose LEDs driven from FPGA\n
+Text Notes 6200 7230 1    50   ~ 0
+Power indicators
+Text Notes 10790 1750 0    50   ~ 0
+Provides 5V0 system voltage for HDMI interfacing
+Text Notes 13730 2320 0    50   ~ 0
+max 2A
+Text Notes 10980 3800 0    50   ~ 0
+TODO: Add 0R here so we can do the bringup of the DC/DC without burning the rest of the board
+Text Notes 13280 3500 0    50   ~ 0
+TODO: move values
+Text Notes 690  5760 0    50   ~ 0
+TODO: consider adding a jumper (0R) between the 3V3 and VCCO34
+Text Notes 1690 8540 0    50   ~ 0
+This connector matches the JB2 pinhead on breakyBreaky
 $EndSCHEMATC
