@@ -215,10 +215,6 @@ Text Label 2650 6700 0    50   ~ 0
 IO_L20P_T3_34
 Text Label 2650 6800 0    50   ~ 0
 IO_L20N_T3_34
-Text Label 2650 7000 0    50   ~ 0
-IO_L21P_T3_DQS_34
-Text Label 2650 7100 0    50   ~ 0
-IO_L21N_T3_DQS_34
 Text Label 2650 7300 0    50   ~ 0
 IO_L15P_T2_DQS_34
 Text Label 2650 7400 0    50   ~ 0
@@ -560,9 +556,9 @@ TMDS_DATA0_P
 Text Label 4400 6700 0    50   ~ 0
 TMDS_DATA1_N
 Text Label 4450 7400 0    50   ~ 0
-TMDS_CLK_P
+IO_L18P_T2_34
 Text Label 4450 7300 0    50   ~ 0
-TMDS_CLK_N
+IO_L18N_T2_34
 Text Label 4350 7600 0    50   ~ 0
 HDMI_SCL_3V3
 Text Label 4350 7700 0    50   ~ 0
@@ -579,10 +575,6 @@ Text Notes 5150 7000 0    50   ~ 0
 IO_L22N_T3_34
 Text Notes 5150 7100 0    50   ~ 0
 IO_L22P_T3_34
-Text Notes 5150 7300 0    50   ~ 0
-IO_L18N_T2_34
-Text Notes 5150 7400 0    50   ~ 0
-IO_L18P_T2_34
 Text Notes 5150 7600 0    50   ~ 0
 IO_L17N_T2_34
 Text Notes 5150 7700 0    50   ~ 0
@@ -1161,19 +1153,15 @@ Text Notes 6100 7000 0    50   ~ 0
 W19
 Text Notes 6100 7100 0    50   ~ 0
 W18
-Text Notes 6100 7300 0    50   ~ 0
-W16
-Text Notes 6100 7400 0    50   ~ 0
-V16
 Text Notes 6100 7600 0    50   ~ 0
 Y19
 Text Notes 6100 7700 0    50   ~ 0
 Y18
 Text Notes 6100 7900 0    50   ~ 0
 P19
-Text Notes 1500 6500 0    50   ~ 0
+Text Notes 1400 6500 0    50   ~ 0
 P18
-Text Notes 1500 6400 0    50   ~ 0
+Text Notes 1400 6400 0    50   ~ 0
 N17
 $Comp
 L antmicroMechanicalParts:antmicro_logo N2
@@ -1456,4 +1444,16 @@ Wire Wire Line
 Connection ~ 8650 6550
 Wire Wire Line
 	8650 6550 8650 6600
+Text Label 2650 7100 0    50   ~ 0
+TMDS_CLK_N
+Text Label 2650 7000 0    50   ~ 0
+TMDS_CLK_P
+Text Notes 1750 7000 0    50   ~ 0
+IO_L21P_T3_DQS_34
+Text Notes 1750 7100 0    50   ~ 0
+IO_L21N_T3_DQS_34
+Text Notes 1400 7000 0    50   ~ 0
+V17
+Text Notes 1400 7100 0    50   ~ 0
+V18
 $EndSCHEMATC
