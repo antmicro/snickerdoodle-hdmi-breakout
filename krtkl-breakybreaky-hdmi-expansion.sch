@@ -1190,19 +1190,6 @@ Text Notes 9630 2270 0    50   ~ 0
 max 2A
 Text Notes 2650 8700 0    50   ~ 0
 This connector matches the JB2 pinhead on breakyBreaky
-$Comp
-L antmicroUSBDVIHDMIConnectors:685119134923 J2
-U 1 1 5E61D089
-P 3050 2400
-F 0 "J2" H 3050 3337 60  0000 C CNN
-F 1 "685119134923" H 3050 3231 60  0000 C CNN
-F 2 "antmicro-footprints:HDMI_A_Female_685119134923" H 3250 2600 60  0001 L CNN
-F 3 "https://en.wikipedia.org/wiki/HDMI" H 3250 2700 60  0001 L CNN
-F 4 "685119134923" H 3250 2900 60  0001 L CNN "MPN"
-F 5 "Amphenol" H 3250 3500 60  0001 L CNN "Manufacturer"
-	1    3050 2400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2450 2750 2450 3450
 Wire Wire Line
@@ -1456,4 +1443,17 @@ Text Notes 1400 7000 0    50   ~ 0
 V17
 Text Notes 1400 7100 0    50   ~ 0
 V18
+$Comp
+L antmicroUSBDVIHDMIConnectors:685119134923 J2
+U 1 1 5E64A095
+P 3050 2400
+F 0 "J2" H 3050 3337 60  0000 C CNN
+F 1 "685119134923" H 3050 3231 60  0000 C CNN
+F 2 "antmicro-footprints:HDMI_A_Female_685119134923" H 3250 2600 60  0001 L CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 3250 2700 60  0001 L CNN
+F 4 "685119134923" H 3250 2900 60  0001 L CNN "MPN"
+F 5 "Amphenol" H 3250 3500 60  0001 L CNN "Manufacturer"
+	1    3050 2400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
