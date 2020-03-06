@@ -8,9 +8,9 @@ Sheet 1 1
 Title "KRKTL breakyBreaky HDMI Expansion"
 Date "03/2020"
 Rev "1.0"
-Comp "Antmicro"
+Comp ""
 Comment1 "www.antmicro.com"
-Comment2 ""
+Comment2 "Antmicro Ltd."
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -1178,7 +1178,7 @@ Text Notes 1400 5350 0    50   ~ 0
 TODO: Check orientation and pinout before routing
 Text Notes 7700 8150 0    50   ~ 0
 Optional bypass of HPD which will not invert \nlogic state at this signal\n
-Text Notes 1050 10350 0    50   ~ 0
+Text Notes 1060 10270 0    50   ~ 0
 TODO: add schematic sections, add logotypes and branding\n
 Text Notes 11450 3800 0    50   ~ 0
 General purpose LEDs driven from FPGA\n
