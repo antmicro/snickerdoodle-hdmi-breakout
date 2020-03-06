@@ -1272,19 +1272,6 @@ F 3 "" H 4450 3600 50  0001 C CNN
 	1    4450 3600
 	1    0    0    -1  
 $EndComp
-$Comp
-L antmicroFerriteBeadsandChips:BLM18PG121SN1D FB1
-U 1 1 5E6A7299
-P 4150 3500
-F 0 "FB1" H 4150 3750 60  0000 C CNN
-F 1 "BLM18PG121SN1D" H 4150 3650 60  0000 C CNN
-F 2 "antmicro-footprints:0603" H 4350 3700 60  0001 L CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 4350 3800 60  0001 L CNN
-F 4 "BLM18PG121SN1D" H 4350 4000 60  0001 L CNN "MPN"
-F 5 "Murata Electronics North America" H 4350 4600 60  0001 L CNN "Manufacturer"
-	1    4150 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 3600 3850 3500
 Wire Wire Line
@@ -1454,6 +1441,19 @@ F 3 "https://en.wikipedia.org/wiki/HDMI" H 3250 2700 60  0001 L CNN
 F 4 "685119134923" H 3250 2900 60  0001 L CNN "MPN"
 F 5 "Amphenol" H 3250 3500 60  0001 L CNN "Manufacturer"
 	1    3050 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroFerriteBeadsandChips:BLM18PG121SN1D FB1
+U 1 1 5ED64AD2
+P 4150 3500
+F 0 "FB1" H 4150 3787 60  0000 C CNN
+F 1 "BLM18PG121SN1D" H 4150 3681 60  0000 C CNN
+F 2 "antmicro-footprints:0603-res" H 4350 3700 60  0001 L CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 4350 3800 60  0001 L CNN
+F 4 "BLM18PG121SN1D" H 4350 4000 60  0001 L CNN "MPN"
+F 5 "Murata Electronics North America" H 4350 4600 60  0001 L CNN "Manufacturer"
+	1    4150 3500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
