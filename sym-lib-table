@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name krtkl-breakybreaky-hdmi-expansion)(type Legacy)(uri ${KIPRJMOD}/lib/krtkl-breakybreaky-hdmi-expansion.lib)(options "")(descr ""))
 )
