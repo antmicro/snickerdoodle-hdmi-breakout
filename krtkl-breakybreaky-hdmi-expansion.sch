@@ -3546,34 +3546,34 @@ HDMI_SDA_3V3
 Text Label 12300 7300 0    50   ~ 0
 HDMI_SCL_3V3
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP5
+L krtkl-breakybreaky-hdmi-expansion:TP_SMD1MM TP5
 U 1 1 5E685C64
 P 12200 7300
 F 0 "TP5" V 12150 7300 50  0000 R CNN
 F 1 "TP_SMD1MM" H 12200 7200 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 12400 7500 60  0001 L CNN
+F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm" H 12400 7500 60  0001 L CNN
 F 3 "" H 12400 7600 60  0001 L CNN
 	1    12200 7300
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP6
+L krtkl-breakybreaky-hdmi-expansion:TP_SMD1MM TP6
 U 1 1 5E68AC0C
 P 12200 7400
 F 0 "TP6" V 12250 7400 50  0000 R CNN
 F 1 "TP_SMD1MM" H 12200 7300 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 12400 7600 60  0001 L CNN
+F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm" H 12400 7600 60  0001 L CNN
 F 3 "" H 12400 7700 60  0001 L CNN
 	1    12200 7400
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R14
+L krtkl-breakybreaky-hdmi-expansion:R_0R_0402 R14
 U 1 1 5E6C715E
 P 13500 7300
 F 0 "R14" H 13350 7350 60  0000 C CNN
 F 1 "R_0R_0402" H 13500 7150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13700 7500 60  0001 L CNN
+F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" H 13700 7500 60  0001 L CNN
 F 3 "" H 13500 7300 50  0001 C CNN
 F 4 "PANASONIC" H 13700 7700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 13700 7600 60  0001 L CNN "MPN"
@@ -3588,12 +3588,12 @@ Wire Wire Line
 Wire Wire Line
 	13350 7300 12300 7300
 $Comp
-L antmicroResistors0402:R_0R_0402 R13
+L krtkl-breakybreaky-hdmi-expansion:R_0R_0402 R13
 U 1 1 5E6C7819
 P 13150 7400
 F 0 "R13" H 13000 7450 60  0000 C CNN
 F 1 "R_0R_0402" H 13150 7250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13350 7600 60  0001 L CNN
+F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" H 13350 7600 60  0001 L CNN
 F 3 "" H 13150 7400 50  0001 C CNN
 F 4 "PANASONIC" H 13350 7800 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 13350 7700 60  0001 L CNN "MPN"
@@ -3604,45 +3604,45 @@ $EndComp
 Wire Wire Line
 	12300 7400 13000 7400
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP1
+L krtkl-breakybreaky-hdmi-expansion:TP_SMD1MM TP1
 U 1 1 5E74470E
 P 2650 7250
 F 0 "TP1" V 2600 7250 50  0000 R CNN
 F 1 "TP_SMD1MM" H 2650 7150 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2850 7450 60  0001 L CNN
+F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm" H 2850 7450 60  0001 L CNN
 F 3 "" H 2850 7550 60  0001 L CNN
 	1    2650 7250
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP2
+L krtkl-breakybreaky-hdmi-expansion:TP_SMD1MM TP2
 U 1 1 5E7450D0
 P 2650 7350
 F 0 "TP2" V 2600 7350 50  0000 R CNN
 F 1 "TP_SMD1MM" H 2650 7250 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2850 7550 60  0001 L CNN
+F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm" H 2850 7550 60  0001 L CNN
 F 3 "" H 2850 7650 60  0001 L CNN
 	1    2650 7350
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP3
+L krtkl-breakybreaky-hdmi-expansion:TP_SMD1MM TP3
 U 1 1 5E745357
 P 2650 7550
 F 0 "TP3" V 2600 7550 50  0000 R CNN
 F 1 "TP_SMD1MM" H 2650 7450 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2850 7750 60  0001 L CNN
+F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm" H 2850 7750 60  0001 L CNN
 F 3 "" H 2850 7850 60  0001 L CNN
 	1    2650 7550
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP4
+L krtkl-breakybreaky-hdmi-expansion:TP_SMD1MM TP4
 U 1 1 5E7456DD
 P 2650 7650
 F 0 "TP4" V 2600 7650 50  0000 R CNN
 F 1 "TP_SMD1MM" H 2650 7550 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2850 7850 60  0001 L CNN
+F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm" H 2850 7850 60  0001 L CNN
 F 3 "" H 2850 7950 60  0001 L CNN
 	1    2650 7650
 	0    1    1    0   

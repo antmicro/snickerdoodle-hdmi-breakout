@@ -219,7 +219,7 @@
     (add_net "Net-(U2-Pad8)")
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67E0C6)
+  (module krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67E0C6)
     (at 161.36 112.4608)
     (path /5E68AC0C)
     (attr virtual)
@@ -233,7 +233,7 @@
       (net 34 /HDMI_SDA_3V3))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67EA84)
+  (module krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67EA84)
     (at 163.06 111.6008)
     (path /5E685C64)
     (attr virtual)
@@ -247,7 +247,7 @@
       (net 35 /HDMI_SCL_3V3))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67E0BC)
+  (module krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67E0BC)
     (at 141.77 103.5308)
     (path /5E7456DD)
     (attr virtual)
@@ -261,7 +261,7 @@
       (net 25 /IO_L16N_T2_34))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67ED07)
+  (module krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67ED07)
     (at 142.636666 105.09)
     (path /5E745357)
     (attr virtual)
@@ -275,7 +275,7 @@
       (net 28 /IO_L16P_T2_34))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67ED13)
+  (module krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67ED13)
     (at 143.523332 103.5308)
     (path /5E7450D0)
     (attr virtual)
@@ -289,7 +289,7 @@
       (net 23 /IO_L15N_T2_DQS_34))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67ED1F)
+  (module krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67ED1F)
     (at 144.389998 105.09)
     (path /5E74470E)
     (attr virtual)
@@ -303,7 +303,7 @@
       (net 27 /IO_L15P_T2_DQS_34))
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E67E29C)
+  (module krtkl-breakybreaky-hdmi-expansion-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E67E29C)
     (at 155.91 119.1 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -330,14 +330,14 @@
       (net 56 "Net-(R14-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 35 /HDMI_SCL_3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E67E099)
+  (module krtkl-breakybreaky-hdmi-expansion-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E67E099)
     (at 156.94 119.1 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -364,7 +364,7 @@
       (net 55 "Net-(R13-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 34 /HDMI_SDA_3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
