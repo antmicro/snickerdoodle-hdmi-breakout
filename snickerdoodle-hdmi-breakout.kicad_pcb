@@ -219,7 +219,7 @@
     (add_net "Net-(U2-Pad8)")
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67E0C6)
+  (module snickerdoodle-hdmi-breakout-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67E0C6)
     (at 161.36 112.4608)
     (path /5E68AC0C)
     (attr virtual)
@@ -233,7 +233,7 @@
       (net 34 /HDMI_SDA_3V3))
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67EA84)
+  (module snickerdoodle-hdmi-breakout-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67EA84)
     (at 163.06 111.6008)
     (path /5E685C64)
     (attr virtual)
@@ -247,7 +247,7 @@
       (net 35 /HDMI_SCL_3V3))
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67E0BC)
+  (module snickerdoodle-hdmi-breakout-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67E0BC)
     (at 141.77 103.5308)
     (path /5E7456DD)
     (attr virtual)
@@ -261,7 +261,7 @@
       (net 25 /IO_L16N_T2_34))
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67ED07)
+  (module snickerdoodle-hdmi-breakout-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67ED07)
     (at 142.636666 105.09)
     (path /5E745357)
     (attr virtual)
@@ -275,7 +275,7 @@
       (net 28 /IO_L16P_T2_34))
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67ED13)
+  (module snickerdoodle-hdmi-breakout-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67ED13)
     (at 143.523332 103.5308)
     (path /5E7450D0)
     (attr virtual)
@@ -289,7 +289,7 @@
       (net 23 /IO_L15N_T2_DQS_34))
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67ED1F)
+  (module snickerdoodle-hdmi-breakout-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E67ED1F)
     (at 144.389998 105.09)
     (path /5E74470E)
     (attr virtual)
@@ -303,7 +303,7 @@
       (net 27 /IO_L15P_T2_DQS_34))
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E67E29C)
+  (module snickerdoodle-hdmi-breakout-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E67E29C)
     (at 155.91 119.1 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -337,7 +337,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E67E099)
+  (module snickerdoodle-hdmi-breakout-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E67E099)
     (at 156.94 119.1 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -371,7 +371,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E632299)
+  (module snickerdoodle-hdmi-breakout-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E632299)
     (at 143.78 119.75)
     (path /5ED64AD2)
     (attr smd)
@@ -406,7 +406,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E623CE0)
+  (module snickerdoodle-hdmi-breakout-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E623CE0)
     (at 176.31 112.5 270)
     (path /5E6E16C4)
     (attr smd)
@@ -441,7 +441,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:SolderJumper-0.6x1.4mm (layer F.Cu) (tedit 5DDFF3C8) (tstamp 5E6239F6)
+  (module snickerdoodle-hdmi-breakout-footprints:SolderJumper-0.6x1.4mm (layer F.Cu) (tedit 5DDFF3C8) (tstamp 5E6239F6)
     (at 188.57 103.36)
     (descr "SMD Solder Jumper, 0.6x1.4mm, rounded Pads, 0.2mm gap, open")
     (tags "solder jumper open")
@@ -481,7 +481,7 @@
       ))
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:HDMI_A_Female_685119134923 (layer F.Cu) (tedit 5DB062DB) (tstamp 5E631986)
+  (module snickerdoodle-hdmi-breakout-footprints:HDMI_A_Female_685119134923 (layer F.Cu) (tedit 5DB062DB) (tstamp 5E631986)
     (at 137.68 112.49 90)
     (descr http://media.digikey.com/pdf/Data%20Sheets/CNC%20Tech%20PDFs/HDMI_A_Female_2000-1-2-41-00-BK_Dwg.pdf)
     (path /5E64A095)
@@ -565,7 +565,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:VSON-10-1EP_3x3mm (layer F.Cu) (tedit 5E6100FE) (tstamp 5E610382)
+  (module snickerdoodle-hdmi-breakout-footprints:VSON-10-1EP_3x3mm (layer F.Cu) (tedit 5E6100FE) (tstamp 5E610382)
     (at 184.48 116.57 270)
     (path /5E837FDA)
     (attr smd)
@@ -623,7 +623,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:antmicro-logo_scaled_20mm (layer F.Cu) (tedit 5E4A93FA) (tstamp 5E6128F7)
+  (module snickerdoodle-hdmi-breakout-footprints:antmicro-logo_scaled_20mm (layer F.Cu) (tedit 5E4A93FA) (tstamp 5E6128F7)
     (at 172.63 106.18)
     (path /5EA19254)
     (attr virtual)
@@ -1209,7 +1209,7 @@
       (xy -7.23652 -3.367203) (xy -7.152142 -3.365846)) (layer F.Mask) (width 0.00186))
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E610323)
+  (module snickerdoodle-hdmi-breakout-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E610323)
     (at 184.2 120.33 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1243,7 +1243,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E610314)
+  (module snickerdoodle-hdmi-breakout-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E610314)
     (at 184.36 112.49 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1277,7 +1277,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E610305)
+  (module snickerdoodle-hdmi-breakout-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E610305)
     (at 181.14 115.33 180)
     (path /5E891475)
     (attr smd)
@@ -1312,7 +1312,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E614F24)
+  (module snickerdoodle-hdmi-breakout-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E614F24)
     (at 149.393333 107.1 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1346,7 +1346,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E614F4E)
+  (module snickerdoodle-hdmi-breakout-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E614F4E)
     (at 146.82 107.1 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1380,7 +1380,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E614FA2)
+  (module snickerdoodle-hdmi-breakout-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E614FA2)
     (at 154.54 107.1 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1414,7 +1414,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E614F78)
+  (module snickerdoodle-hdmi-breakout-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E614F78)
     (at 151.966666 107.1 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1448,7 +1448,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E6102A7)
+  (module snickerdoodle-hdmi-breakout-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E6102A7)
     (at 159.02 118.5 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1482,7 +1482,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:SOT-23-3 (layer F.Cu) (tedit 5D5D4314) (tstamp 5E610260)
+  (module snickerdoodle-hdmi-breakout-footprints:SOT-23-3 (layer F.Cu) (tedit 5D5D4314) (tstamp 5E610260)
     (at 160.64 107.86 90)
     (path /5E790AA8)
     (attr smd)
@@ -1528,7 +1528,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:SOT-23-3 (layer F.Cu) (tedit 5D5D4314) (tstamp 5E610244)
+  (module snickerdoodle-hdmi-breakout-footprints:SOT-23-3 (layer F.Cu) (tedit 5D5D4314) (tstamp 5E610244)
     (at 158.12 105.77 270)
     (path /5E7605FB)
     (attr smd)
@@ -1574,7 +1574,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:oshw-logo (layer F.Cu) (tedit 5E4A93CD) (tstamp 5E6101DA)
+  (module snickerdoodle-hdmi-breakout-footprints:oshw-logo (layer F.Cu) (tedit 5E4A93CD) (tstamp 5E6101DA)
     (at 176.55 118.06)
     (path /5E9DC765)
     (attr virtual)
@@ -2712,7 +2712,7 @@
       (xy -1.520547 2.559315)) (layer F.Mask) (width 0.01))
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:XFL4020-102MEB (layer F.Cu) (tedit 5D7789FB) (tstamp 5E6101B2)
+  (module snickerdoodle-hdmi-breakout-footprints:XFL4020-102MEB (layer F.Cu) (tedit 5D7789FB) (tstamp 5E6101B2)
     (at 189.09 116.89 90)
     (path /5E8A4A3F)
     (fp_text reference L1 (at 2.86 -1.67 180) (layer F.SilkS)
@@ -2736,7 +2736,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5E61505F)
+  (module snickerdoodle-hdmi-breakout-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5E61505F)
     (at 149.463333 104.54 270)
     (path /5E790A95)
     (attr smd)
@@ -2778,7 +2778,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5E61012E)
+  (module snickerdoodle-hdmi-breakout-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5E61012E)
     (at 146.92 104.54 270)
     (path /5E622911)
     (attr smd)
@@ -2820,7 +2820,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5E610113)
+  (module snickerdoodle-hdmi-breakout-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5E610113)
     (at 154.55 104.54 270)
     (path /5E6FCB5E)
     (attr smd)
@@ -2862,7 +2862,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5E6100F8)
+  (module snickerdoodle-hdmi-breakout-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5E6100F8)
     (at 152.006666 104.54 270)
     (path /5E722185)
     (attr smd)
@@ -2904,7 +2904,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0805-cap (layer F.Cu) (tedit 5D5E95A9) (tstamp 5E631B83)
+  (module snickerdoodle-hdmi-breakout-footprints:0805-cap (layer F.Cu) (tedit 5D5E95A9) (tstamp 5E631B83)
     (at 182.66 112.26 90)
     (path /5E961A89)
     (attr smd)
@@ -2935,7 +2935,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0805-cap (layer F.Cu) (tedit 5D5E95A9) (tstamp 5E628319)
+  (module snickerdoodle-hdmi-breakout-footprints:0805-cap (layer F.Cu) (tedit 5D5E95A9) (tstamp 5E628319)
     (at 180.51 112.26 90)
     (path /5E9615EA)
     (attr smd)
@@ -2966,7 +2966,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0805-cap (layer F.Cu) (tedit 5D5E95A9) (tstamp 5E628374)
+  (module snickerdoodle-hdmi-breakout-footprints:0805-cap (layer F.Cu) (tedit 5D5E95A9) (tstamp 5E628374)
     (at 178.32 112.27 90)
     (path /5E960E0B)
     (attr smd)
@@ -2997,7 +2997,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E610075)
+  (module snickerdoodle-hdmi-breakout-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E610075)
     (at 183.1 120.33 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3031,7 +3031,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0805-cap (layer F.Cu) (tedit 5D5E95A9) (tstamp 5E610066)
+  (module snickerdoodle-hdmi-breakout-footprints:0805-cap (layer F.Cu) (tedit 5D5E95A9) (tstamp 5E610066)
     (at 186.73 120.33)
     (path /5E9625A6)
     (attr smd)
@@ -3062,7 +3062,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:TPD12S016PWR (layer F.Cu) (tedit 5E60C658) (tstamp 5E60D205)
+  (module snickerdoodle-hdmi-breakout-footprints:TPD12S016PWR (layer F.Cu) (tedit 5E60C658) (tstamp 5E60D205)
     (at 150.68 114.72 90)
     (path /5E611121)
     (attr smd)
@@ -3132,7 +3132,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E60D1E4)
+  (module snickerdoodle-hdmi-breakout-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E60D1E4)
     (at 153.59 120.29 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3166,7 +3166,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E60D1D5)
+  (module snickerdoodle-hdmi-breakout-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E60D1D5)
     (at 161.52 115.37)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3200,7 +3200,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E60D1C6)
+  (module snickerdoodle-hdmi-breakout-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E60D1C6)
     (at 161.52 120.7)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3234,7 +3234,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:SOT-23-3 (layer F.Cu) (tedit 5D5D4314) (tstamp 5E60D1B7)
+  (module snickerdoodle-hdmi-breakout-footprints:SOT-23-3 (layer F.Cu) (tedit 5D5D4314) (tstamp 5E60D1B7)
     (at 161.5 118.02 180)
     (path /5E5FC9A0)
     (attr smd)
@@ -3280,7 +3280,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:SMH-120-02-T-D locked (layer B.Cu) (tedit 5E5FD2AC) (tstamp 5E616140)
+  (module snickerdoodle-hdmi-breakout-footprints:SMH-120-02-T-D locked (layer B.Cu) (tedit 5E5FD2AC) (tstamp 5E616140)
     (at 189.86 104.51 180)
     (path /5E6330F6)
     (fp_text reference J1 (at 50.8 -7.92) (layer B.SilkS)
@@ -3384,7 +3384,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:SOD-323F (layer F.Cu) (tedit 5D28A51C) (tstamp 5E60D13A)
+  (module snickerdoodle-hdmi-breakout-footprints:SOD-323F (layer F.Cu) (tedit 5D28A51C) (tstamp 5E60D13A)
     (at 144.1 109.86 90)
     (path /5E607AC9)
     (attr smd)
@@ -3425,7 +3425,7 @@
       (net 5 "Net-(D1-PadK)"))
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E631A42)
+  (module snickerdoodle-hdmi-breakout-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E631A42)
     (at 145.79 110.4 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3459,7 +3459,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E60D10E)
+  (module snickerdoodle-hdmi-breakout-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E60D10E)
     (at 156.4 109.97 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3493,7 +3493,7 @@
     )
   )
 
-  (module krtkl-breakybreaky-hdmi-expansion-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E60D0FF)
+  (module snickerdoodle-hdmi-breakout-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E60D0FF)
     (at 156.39 112.27 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)

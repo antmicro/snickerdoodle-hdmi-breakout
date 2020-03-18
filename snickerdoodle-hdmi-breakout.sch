@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:krtkl-breakybreaky-hdmi-expansion-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -15,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:R_10k_0402 R1
+L snickerdoodle-hdmi-breakout:R_10k_0402 R1
 U 1 1 5E5FC404
 P 9350 7300
 F 0 "R1" V 9395 7230 60  0000 R CNN
 F 1 "R_10k_0402" H 9350 7150 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" H 9550 7500 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0402-res" H 9550 7500 60  0001 L CNN
 F 3 "" H 9350 7300 50  0001 C CNN
 F 4 "VISHAY" H 9550 7700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 9550 7600 60  0001 L CNN "MPN"
@@ -29,12 +28,12 @@ F 6 "10k" V 9297 7230 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:BSS138AKA Q1
+L snickerdoodle-hdmi-breakout:BSS138AKA Q1
 U 1 1 5E5FC9A0
 P 9750 7000
 F 0 "Q1" H 9858 7053 60  0000 L CNN
 F 1 "BSS138AKA" H 9858 6947 60  0000 L CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:SOT-23-3" H 9950 7200 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:SOT-23-3" H 9950 7200 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 9950 7300 60  0001 L CNN
 F 4 "BSS138AKA" H 9950 7500 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 9950 8100 60  0001 L CNN "Manufacturer"
@@ -82,7 +81,7 @@ Connection ~ 3200 2250
 Wire Wire Line
 	3150 2750 3300 2750
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR03
+L snickerdoodle-hdmi-breakout:GND #PWR03
 U 1 1 5E6121B2
 P 2150 3400
 F 0 "#PWR03" H 2150 3150 50  0001 C CNN
@@ -106,7 +105,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 7200 9750 7500
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR01
+L snickerdoodle-hdmi-breakout:GND #PWR01
 U 1 1 5E619F3A
 P 9350 7500
 F 0 "#PWR01" H 9350 7250 50  0001 C CNN
@@ -117,7 +116,7 @@ F 3 "" H 9350 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR02
+L snickerdoodle-hdmi-breakout:GND #PWR02
 U 1 1 5E61A386
 P 9750 7500
 F 0 "#PWR02" H 9750 7250 50  0001 C CNN
@@ -130,25 +129,25 @@ $EndComp
 Text GLabel 9750 6250 1    50   Input ~ 0
 3V3
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:SMH-120-02-T-D J1
+L snickerdoodle-hdmi-breakout:SMH-120-02-T-D J1
 U 1 1 5E6330F6
 P 3700 6100
 F 0 "J1" H 3750 6300 60  0000 C CNN
 F 1 "SMH-120-02-T-D" H 4050 6200 60  0000 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:SMH-120-02-T-D" H 3300 3940 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:SMH-120-02-T-D" H 3300 3940 60  0001 L CNN
 F 3 "https://www.samtec.com/products/smh-120-02-t-d" H 4700 5350 60  0001 L CNN
 F 4 "SMH-120-02-T-D" H 3400 4200 60  0001 L CNN "MPN"
 F 5 "SAMTEC" H 3550 4100 60  0001 L CNN "Manufacturer"
 	1    3700 6100
-	1    0    0    -1  
+	1    0    0    -1  krtkl-breakybreaky-hdmi-expansi
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:TPD12S016PWR U1
+L snickerdoodle-hdmi-breakout:TPD12S016PWR U1
 U 1 1 5E611121
 P 14050 6050
 F 0 "U1" H 14450 6215 60  0000 C CNN
 F 1 "TPD12S016PWR" H 14450 6124 60  0000 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:TPD12S016PWR" H 14050 6050 50  0001 C CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:TPD12S016PWR" H 14050 6050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd12s016.pdf" H 14050 6050 50  0001 C CNN
 	1    14050 6050
 	1    0    0    -1  
@@ -286,7 +285,7 @@ Connection ~ 4150 7750
 Wire Wire Line
 	4150 7750 4150 8250
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR06
+L snickerdoodle-hdmi-breakout:GND #PWR06
 U 1 1 5E66D6FD
 P 3550 8250
 F 0 "#PWR06" H 3550 8000 50  0001 C CNN
@@ -297,7 +296,7 @@ F 3 "" H 3550 8250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR07
+L snickerdoodle-hdmi-breakout:GND #PWR07
 U 1 1 5E66DCD5
 P 4150 8250
 F 0 "#PWR07" H 4150 8000 50  0001 C CNN
@@ -356,12 +355,12 @@ Wire Wire Line
 Wire Wire Line
 	13950 7550 13000 7550
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:C_100n_0402_6V3 C1
+L snickerdoodle-hdmi-breakout:C_100n_0402_6V3 C1
 U 1 1 5E6AD647
 P 13150 8150
 F 0 "C1" H 13035 8105 60  0000 R CNN
 F 1 "C_100n_0402_6V3" H 13150 8000 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-cap" H 13350 8350 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0402-cap" H 13350 8350 60  0001 L CNN
 F 3 "" H 13150 8150 50  0001 C CNN
 F 4 "Walsin" H 13350 8550 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 13350 8450 60  0001 L CNN "MPN"
@@ -370,12 +369,12 @@ F 6 "100n" H 13035 8203 50  0000 R CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:C_100n_0402_6V3 C2
+L snickerdoodle-hdmi-breakout:C_100n_0402_6V3 C2
 U 1 1 5E6AF6F8
 P 13500 8300
 F 0 "C2" H 13385 8255 60  0000 R CNN
 F 1 "C_100n_0402_6V3" H 13500 8150 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-cap" H 13700 8500 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0402-cap" H 13700 8500 60  0001 L CNN
 F 3 "" H 13500 8300 50  0001 C CNN
 F 4 "Walsin" H 13700 8700 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 13700 8600 60  0001 L CNN "MPN"
@@ -390,7 +389,7 @@ Wire Wire Line
 Wire Wire Line
 	13150 8300 13150 8450
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR011
+L snickerdoodle-hdmi-breakout:GND #PWR011
 U 1 1 5E6B92FC
 P 13150 8450
 F 0 "#PWR011" H 13150 8200 50  0001 C CNN
@@ -401,7 +400,7 @@ F 3 "" H 13150 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR012
+L snickerdoodle-hdmi-breakout:GND #PWR012
 U 1 1 5E6B9748
 P 13500 8450
 F 0 "#PWR012" H 13500 8200 50  0001 C CNN
@@ -448,12 +447,12 @@ Wire Wire Line
 Text Label 15050 7700 0    50   ~ 0
 HDMI_PWR_5V
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:C_100n_0402_6V3 C3
+L snickerdoodle-hdmi-breakout:C_100n_0402_6V3 C3
 U 1 1 5E6D9D1B
 P 15400 8050
 F 0 "C3" H 15285 8005 60  0000 R CNN
 F 1 "C_100n_0402_6V3" H 15400 7900 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-cap" H 15600 8250 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0402-cap" H 15600 8250 60  0001 L CNN
 F 3 "" H 15400 8050 50  0001 C CNN
 F 4 "Walsin" H 15600 8450 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 15600 8350 60  0001 L CNN "MPN"
@@ -483,7 +482,7 @@ Connection ~ 15000 8150
 Wire Wire Line
 	15000 8150 15000 8450
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR015
+L snickerdoodle-hdmi-breakout:GND #PWR015
 U 1 1 5E6EFA78
 P 15000 8450
 F 0 "#PWR015" H 15000 8200 50  0001 C CNN
@@ -494,7 +493,7 @@ F 3 "" H 15000 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR017
+L snickerdoodle-hdmi-breakout:GND #PWR017
 U 1 1 5E6EFD53
 P 15400 8450
 F 0 "#PWR017" H 15400 8200 50  0001 C CNN
@@ -505,12 +504,12 @@ F 3 "" H 15400 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:R_10k_0402 R4
+L snickerdoodle-hdmi-breakout:R_10k_0402 R4
 U 1 1 5E6F0655
 P 12900 7800
 F 0 "R4" V 12855 7870 60  0000 L CNN
 F 1 "R_10k_0402" H 12900 7650 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" H 13100 8000 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0402-res" H 13100 8000 60  0001 L CNN
 F 3 "" H 12900 7800 50  0001 C CNN
 F 4 "VISHAY" H 13100 8200 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 13100 8100 60  0001 L CNN "MPN"
@@ -519,7 +518,7 @@ F 6 "10k" V 12953 7870 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR09
+L snickerdoodle-hdmi-breakout:GND #PWR09
 U 1 1 5E6FA33E
 P 12900 8450
 F 0 "#PWR09" H 12900 8200 50  0001 C CNN
@@ -578,12 +577,12 @@ Wire Wire Line
 Wire Wire Line
 	3600 6250 3150 6250
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:TPS61232DRCT U2
+L snickerdoodle-hdmi-breakout:TPS61232DRCT U2
 U 1 1 5E837FDA
 P 13650 2700
 F 0 "U2" H 13650 3465 60  0000 C CNN
 F 1 "TPS61232DRCT" H 13650 3374 60  0000 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:VSON-10-1EP_3x3mm" H 13550 2500 50  0001 C CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:VSON-10-1EP_3x3mm" H 13550 2500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps61232.pdf" H 13650 2600 50  0001 C CNN
 	1    13650 2700
 	1    0    0    -1  
@@ -597,7 +596,7 @@ Text GLabel 12900 1900 1    50   Input ~ 0
 Text GLabel 12550 1900 1    50   Input ~ 0
 3V3
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR018
+L snickerdoodle-hdmi-breakout:GND #PWR018
 U 1 1 5E83E523
 P 12550 2200
 F 0 "#PWR018" H 12550 1950 50  0001 C CNN
@@ -615,7 +614,7 @@ Connection ~ 12900 2200
 Wire Wire Line
 	13300 2700 13300 3250
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR020
+L snickerdoodle-hdmi-breakout:GND #PWR020
 U 1 1 5E84DD2E
 P 13300 3250
 F 0 "#PWR020" H 13300 3000 50  0001 C CNN
@@ -626,12 +625,12 @@ F 3 "" H 13300 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:C_10n_0402 C5
+L snickerdoodle-hdmi-breakout:C_10n_0402 C5
 U 1 1 5E858A1B
 P 12900 2650
 F 0 "C5" H 13015 2695 60  0000 L CNN
 F 1 "C_10n_0402" H 12900 2500 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-cap" H 13100 2850 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0402-cap" H 13100 2850 60  0001 L CNN
 F 3 "" H 12900 2650 50  0001 C CNN
 F 4 "AVX" H 13100 3050 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 13100 2950 60  0001 L CNN "MPN"
@@ -644,7 +643,7 @@ Wire Wire Line
 Wire Wire Line
 	12900 2800 12900 3250
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR019
+L snickerdoodle-hdmi-breakout:GND #PWR019
 U 1 1 5E864A52
 P 12900 3250
 F 0 "#PWR019" H 12900 3000 50  0001 C CNN
@@ -662,12 +661,12 @@ Wire Wire Line
 Wire Wire Line
 	13200 3000 13500 3000
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:R_1M_0603 R9
+L snickerdoodle-hdmi-breakout:R_1M_0603 R9
 U 1 1 5E891475
 P 13650 3000
 F 0 "R9" H 13650 2800 60  0000 C CNN
 F 1 "R_1M_0603" H 13650 2850 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0603-res" H 13850 3200 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0603-res" H 13850 3200 60  0001 L CNN
 F 3 "" H 13650 3000 50  0001 C CNN
 F 4 "BOURNS" H 13850 3400 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-JW-105GLF" H 13850 3300 60  0001 L CNN "MPN"
@@ -681,12 +680,12 @@ Connection ~ 13150 2200
 Wire Wire Line
 	13150 2200 12900 2200
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:XFL4020-102MEB L1
+L snickerdoodle-hdmi-breakout:XFL4020-102MEB L1
 U 1 1 5E8A4A3F
 P 13650 1800
 F 0 "L1" H 13650 2047 60  0000 C CNN
 F 1 "XFL4020-102MEB" H 13650 1941 60  0000 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:XFL4020-102MEB" H 13850 2000 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:XFL4020-102MEB" H 13850 2000 60  0001 L CNN
 F 3 "" H 13850 2100 60  0001 L CNN
 F 4 "XFL4020-102MEB" H 13850 2300 60  0001 L CNN "MPN"
 F 5 "Coilcraft" H 13850 2900 60  0001 L CNN "Manufacturer"
@@ -703,12 +702,12 @@ Connection ~ 14100 2400
 Wire Wire Line
 	14100 2400 14400 2400
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:R_100k_0402 R11
+L snickerdoodle-hdmi-breakout:R_100k_0402 R11
 U 1 1 5E8D469E
 P 14400 3050
 F 0 "R11" V 14355 3120 60  0000 L CNN
 F 1 "R_100k_0402" H 14400 2900 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" H 14600 3250 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0402-res" H 14600 3250 60  0001 L CNN
 F 3 "" H 14400 3050 50  0001 C CNN
 F 4 "VISHAY" H 14600 3450 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 14600 3350 60  0001 L CNN "MPN"
@@ -717,12 +716,12 @@ F 6 "100k" V 14453 3120 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:R_402k_0402 R10
+L snickerdoodle-hdmi-breakout:R_402k_0402 R10
 U 1 1 5E8DBEE3
 P 14400 2650
 F 0 "R10" V 14355 2720 60  0000 L CNN
 F 1 "R_402k_0402" H 14400 2500 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" H 14600 2850 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0402-res" H 14600 2850 60  0001 L CNN
 F 3 "" H 14400 2650 50  0001 C CNN
 F 4 "VISHAY" H 14600 3050 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402402KFKED" H 14600 2950 60  0001 L CNN "MPN"
@@ -745,7 +744,7 @@ Connection ~ 14400 2400
 Wire Wire Line
 	14400 3200 14400 3250
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR021
+L snickerdoodle-hdmi-breakout:GND #PWR021
 U 1 1 5E8FDF4E
 P 14400 3250
 F 0 "#PWR021" H 14400 3000 50  0001 C CNN
@@ -763,12 +762,12 @@ Wire Wire Line
 	14000 2500 14000 2400
 Connection ~ 14000 2400
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:C_22u_0805_10V C6
+L snickerdoodle-hdmi-breakout:C_22u_0805_10V C6
 U 1 1 5E960E0B
 P 14750 2850
 F 0 "C6" H 14800 3050 60  0000 L CNN
 F 1 "C_22u_0805_10V" H 14750 2700 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0805-cap" H 14950 3050 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0805-cap" H 14950 3050 60  0001 L CNN
 F 3 "" H 14750 2850 50  0001 C CNN
 F 4 "AVX" H 14950 3250 60  0001 L CNN "Manufacturer"
 F 5 "0805ZD226MAT2A" H 14950 3150 60  0001 L CNN "MPN"
@@ -777,12 +776,12 @@ F 6 "22u" H 14800 2950 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:C_22u_0805_10V C7
+L snickerdoodle-hdmi-breakout:C_22u_0805_10V C7
 U 1 1 5E9615EA
 P 15000 2850
 F 0 "C7" H 15050 3050 60  0000 L CNN
 F 1 "C_22u_0805_10V" H 15000 2700 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0805-cap" H 15200 3050 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0805-cap" H 15200 3050 60  0001 L CNN
 F 3 "" H 15000 2850 50  0001 C CNN
 F 4 "AVX" H 15200 3250 60  0001 L CNN "Manufacturer"
 F 5 "0805ZD226MAT2A" H 15200 3150 60  0001 L CNN "MPN"
@@ -791,12 +790,12 @@ F 6 "22u" H 15050 2950 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:C_22u_0805_10V C8
+L snickerdoodle-hdmi-breakout:C_22u_0805_10V C8
 U 1 1 5E961A89
 P 15250 2850
 F 0 "C8" H 15300 3050 60  0000 L CNN
 F 1 "C_22u_0805_10V" H 15250 2700 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0805-cap" H 15450 3050 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0805-cap" H 15450 3050 60  0001 L CNN
 F 3 "" H 15250 2850 50  0001 C CNN
 F 4 "AVX" H 15450 3250 60  0001 L CNN "Manufacturer"
 F 5 "0805ZD226MAT2A" H 15450 3150 60  0001 L CNN "MPN"
@@ -805,12 +804,12 @@ F 6 "22u" H 15300 2950 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:C_22u_0805 C4
+L snickerdoodle-hdmi-breakout:C_22u_0805 C4
 U 1 1 5E9625A6
 P 12550 2050
 F 0 "C4" H 12665 2095 60  0000 L CNN
 F 1 "C_22u_0805" H 12550 1900 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0805-cap" H 12750 2250 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0805-cap" H 12750 2250 60  0001 L CNN
 F 3 "" H 12550 2050 50  0001 C CNN
 F 4 "MULTICOMP" H 12750 2450 60  0001 L CNN "Manufacturer"
 F 5 "MC0805X226M6R3CT" H 12750 2350 60  0001 L CNN "MPN"
@@ -819,7 +818,7 @@ F 6 "22u" H 12665 1997 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR022
+L snickerdoodle-hdmi-breakout:GND #PWR022
 U 1 1 5E963508
 P 14750 3250
 F 0 "#PWR022" H 14750 3000 50  0001 C CNN
@@ -830,7 +829,7 @@ F 3 "" H 14750 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR023
+L snickerdoodle-hdmi-breakout:GND #PWR023
 U 1 1 5E96399F
 P 15000 3250
 F 0 "#PWR023" H 15000 3000 50  0001 C CNN
@@ -841,7 +840,7 @@ F 3 "" H 15000 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR024
+L snickerdoodle-hdmi-breakout:GND #PWR024
 U 1 1 5E963BE6
 P 15250 3250
 F 0 "#PWR024" H 15250 3000 50  0001 C CNN
@@ -865,12 +864,12 @@ Text GLabel 15250 1900 1    50   Input ~ 0
 Text Notes 5250 7850 0    50   ~ 0
 IO_L13N_T2_MRCC_34
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:KP-1608CGCK LED1
+L snickerdoodle-hdmi-breakout:KP-1608CGCK LED1
 U 1 1 5E622911
 P 7300 2200
 F 0 "LED1" V 7200 2050 60  0000 C CNN
 F 1 "KP-1608CGCK" V 7300 1800 60  0000 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:LED_0603" H 7500 2400 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:LED_0603" H 7500 2400 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 7500 2500 60  0001 L CNN
 F 4 "KP-1608CGCK" H 7500 2700 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 7510 2820 60  0001 L CNN "Manufacturer"
@@ -878,12 +877,12 @@ F 5 "KINGBRIGHT" H 7510 2820 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:R_330R_0402 R7
+L snickerdoodle-hdmi-breakout:R_330R_0402 R7
 U 1 1 5E62D606
 P 7300 2500
 F 0 "R7" V 7250 2650 60  0000 C CNN
 F 1 "R_330R_0402" H 7300 2350 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" H 7500 2700 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0402-res" H 7500 2700 60  0001 L CNN
 F 3 "" H 7300 2500 50  0001 C CNN
 F 4 "MULTICOMP" H 7500 2900 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 7500 2800 60  0001 L CNN "MPN"
@@ -904,12 +903,12 @@ GP_LED1
 Text Label 2750 6450 0    50   ~ 0
 GP_LED2
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:KP-1608CGCK 3V3
+L snickerdoodle-hdmi-breakout:KP-1608CGCK 3V3
 U 1 1 5E6FCB5E
 P 9350 2200
 F 0 "3V3" V 9250 2050 60  0000 C CNN
 F 1 "KP-1608CGCK" V 9350 1800 60  0000 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:LED_0603" H 9550 2400 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:LED_0603" H 9550 2400 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 9550 2500 60  0001 L CNN
 F 4 "KP-1608CGCK" H 9550 2700 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 9560 2820 60  0001 L CNN "Manufacturer"
@@ -917,12 +916,12 @@ F 5 "KINGBRIGHT" H 9560 2820 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:R_330R_0402 R6
+L snickerdoodle-hdmi-breakout:R_330R_0402 R6
 U 1 1 5E6FCB67
 P 9350 2500
 F 0 "R6" V 9300 2650 60  0000 C CNN
 F 1 "R_330R_0402" H 9350 2350 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" H 9550 2700 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0402-res" H 9550 2700 60  0001 L CNN
 F 3 "" H 9350 2500 50  0001 C CNN
 F 4 "MULTICOMP" H 9550 2900 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 9550 2800 60  0001 L CNN "MPN"
@@ -937,7 +936,7 @@ Text GLabel 9350 1900 1    50   Input ~ 0
 Wire Wire Line
 	9350 1900 9350 2000
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR013
+L snickerdoodle-hdmi-breakout:GND #PWR013
 U 1 1 5E71857B
 P 9350 2800
 F 0 "#PWR013" H 9350 2550 50  0001 C CNN
@@ -950,12 +949,12 @@ $EndComp
 Wire Wire Line
 	9350 2650 9350 2800
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:KP-1608CGCK 5V0
+L snickerdoodle-hdmi-breakout:KP-1608CGCK 5V0
 U 1 1 5E722185
 P 10350 2200
 F 0 "5V0" V 10250 2050 60  0000 C CNN
 F 1 "KP-1608CGCK" V 10350 1800 60  0000 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:LED_0603" H 10550 2400 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:LED_0603" H 10550 2400 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 10550 2500 60  0001 L CNN
 F 4 "KP-1608CGCK" H 10550 2700 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 10560 2820 60  0001 L CNN "Manufacturer"
@@ -969,7 +968,7 @@ Text GLabel 10350 1900 1    50   Input ~ 0
 Wire Wire Line
 	10350 1900 10350 2000
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR010
+L snickerdoodle-hdmi-breakout:GND #PWR010
 U 1 1 5E722197
 P 10350 2800
 F 0 "#PWR010" H 10350 2550 50  0001 C CNN
@@ -980,12 +979,12 @@ F 3 "" H 10350 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:R_470R_0402 R5
+L snickerdoodle-hdmi-breakout:R_470R_0402 R5
 U 1 1 5E72ADCA
 P 10350 2500
 F 0 "R5" V 10305 2570 60  0000 L CNN
 F 1 "R_470R_0402" H 10350 2350 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" H 10550 2700 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0402-res" H 10550 2700 60  0001 L CNN
 F 3 "" H 10350 2500 50  0001 C CNN
 F 4 "VISHAY" H 10550 2900 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402470RFKED." H 10550 2800 60  0001 L CNN "MPN"
@@ -996,12 +995,12 @@ $EndComp
 Wire Wire Line
 	10350 2650 10350 2800
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:BSS138AKA Q2
+L snickerdoodle-hdmi-breakout:BSS138AKA Q2
 U 1 1 5E7605FB
 P 7300 2850
 F 0 "Q2" H 7000 3100 60  0000 L CNN
 F 1 "BSS138AKA" H 6600 3000 60  0000 L CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:SOT-23-3" H 7500 3050 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:SOT-23-3" H 7500 3050 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 7500 3150 60  0001 L CNN
 F 4 "BSS138AKA" H 7500 3350 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 7500 3950 60  0001 L CNN "Manufacturer"
@@ -1011,7 +1010,7 @@ $EndComp
 Wire Wire Line
 	7300 3050 7300 3200
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR014
+L snickerdoodle-hdmi-breakout:GND #PWR014
 U 1 1 5E76A5D0
 P 7300 3200
 F 0 "#PWR014" H 7300 2950 50  0001 C CNN
@@ -1026,12 +1025,12 @@ Wire Wire Line
 Text Label 6650 2950 0    50   ~ 0
 GP_LED1
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:KP-1608CGCK LED2
+L snickerdoodle-hdmi-breakout:KP-1608CGCK LED2
 U 1 1 5E790A95
 P 8350 2200
 F 0 "LED2" V 8250 2050 60  0000 C CNN
 F 1 "KP-1608CGCK" V 8350 1800 60  0000 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:LED_0603" H 8550 2400 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:LED_0603" H 8550 2400 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 8550 2500 60  0001 L CNN
 F 4 "KP-1608CGCK" H 8550 2700 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 8560 2820 60  0001 L CNN "Manufacturer"
@@ -1039,12 +1038,12 @@ F 5 "KINGBRIGHT" H 8560 2820 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:R_330R_0402 R8
+L snickerdoodle-hdmi-breakout:R_330R_0402 R8
 U 1 1 5E790A9E
 P 8350 2500
 F 0 "R8" V 8300 2650 60  0000 C CNN
 F 1 "R_330R_0402" H 8350 2350 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" H 8550 2700 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0402-res" H 8550 2700 60  0001 L CNN
 F 3 "" H 8350 2500 50  0001 C CNN
 F 4 "MULTICOMP" H 8550 2900 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 8550 2800 60  0001 L CNN "MPN"
@@ -1057,12 +1056,12 @@ Wire Wire Line
 Wire Wire Line
 	8350 1900 8350 2000
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:BSS138AKA Q3
+L snickerdoodle-hdmi-breakout:BSS138AKA Q3
 U 1 1 5E790AA8
 P 8350 2850
 F 0 "Q3" H 8050 3100 60  0000 L CNN
 F 1 "BSS138AKA" H 7650 3000 60  0000 L CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:SOT-23-3" H 8550 3050 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:SOT-23-3" H 8550 3050 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 8550 3150 60  0001 L CNN
 F 4 "BSS138AKA" H 8550 3350 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 8550 3950 60  0001 L CNN "Manufacturer"
@@ -1072,7 +1071,7 @@ $EndComp
 Wire Wire Line
 	8350 3050 8350 3200
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR016
+L snickerdoodle-hdmi-breakout:GND #PWR016
 U 1 1 5E790AAF
 P 8350 3200
 F 0 "#PWR016" H 8350 2950 50  0001 C CNN
@@ -1103,12 +1102,12 @@ HDMI_HPD_3V3
 Text Label 10000 8050 0    50   ~ 0
 TMDS_HPD_3V3
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:R_0R_0402 R3
+L snickerdoodle-hdmi-breakout:R_0R_0402 R3
 U 1 1 5E9202E8
 P 9700 8050
 F 0 "R3" H 9700 8263 60  0000 C CNN
 F 1 "R_0R_0402" H 9700 7900 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" H 9900 8250 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0402-res" H 9900 8250 60  0001 L CNN
 F 3 "" H 9700 8050 50  0001 C CNN
 F 4 "PANASONIC" H 9900 8450 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9900 8350 60  0001 L CNN "MPN"
@@ -1121,12 +1120,12 @@ Wire Wire Line
 Wire Wire Line
 	9850 8050 10550 8050
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:oshw_logo N1
+L snickerdoodle-hdmi-breakout:oshw_logo N1
 U 1 1 5E9DC765
 P 10050 10900
 F 0 "N1" H 10244 10903 50  0000 L CNN
 F 1 "oshw_logo" H 10244 10812 50  0000 L CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:oshw-logo" H 10070 10660 50  0001 C CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:oshw-logo" H 10070 10660 50  0001 C CNN
 F 3 "" H 10050 10900 50  0001 C CNN
 	1    10050 10900
 	1    0    0    -1  
@@ -1154,12 +1153,12 @@ P18
 Text Notes 1500 6350 0    50   ~ 0
 N17
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:antmicro_logo N2
+L snickerdoodle-hdmi-breakout:antmicro_logo N2
 U 1 1 5EA19254
 P 10950 11000
 F 0 "N2" H 11164 11093 50  0000 L CNN
 F 1 "antmicro_logo" H 11164 11002 50  0000 L CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:antmicro-logo_scaled_20mm" H 10850 11250 50  0001 C CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:antmicro-logo_scaled_20mm" H 10850 11250 50  0001 C CNN
 F 3 "" H 10950 11350 50  0001 C CNN
 	1    10950 11000
 	1    0    0    -1  
@@ -1186,7 +1185,7 @@ Wire Wire Line
 	2300 2400 2350 2400
 Connection ~ 2300 2400
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:Earth #SHIELD0101
+L snickerdoodle-hdmi-breakout:Earth #SHIELD0101
 U 1 1 5E6595CF
 P 2750 3400
 F 0 "#SHIELD0101" H 2600 3227 60  0000 L CNN
@@ -1237,7 +1236,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 2050 4250 2050
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:Earth #SHIELD0102
+L snickerdoodle-hdmi-breakout:Earth #SHIELD0102
 U 1 1 5E6A5440
 P 3550 3550
 F 0 "#SHIELD0102" H 3400 3377 60  0000 L CNN
@@ -1248,7 +1247,7 @@ F 3 "~" H 3550 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:GND #PWR04
+L snickerdoodle-hdmi-breakout:GND #PWR04
 U 1 1 5E6A5BAB
 P 4150 3550
 F 0 "#PWR04" H 4150 3300 50  0001 C CNN
@@ -1267,12 +1266,12 @@ Wire Wire Line
 Wire Wire Line
 	4150 3450 4150 3550
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:solder_jumper J3
+L snickerdoodle-hdmi-breakout:solder_jumper J3
 U 1 1 5E6CD093
 P 3350 6150
 F 0 "J3" H 3350 6291 60  0000 C CNN
 F 1 "solder_jumper" H 3350 6050 50  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:SolderJumper-0.6x1.4mm" H 3550 6350 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:SolderJumper-0.6x1.4mm" H 3550 6350 60  0001 L CNN
 F 3 "" H 3550 6450 60  0001 L CNN
 F 4 "None" H 3550 6450 60  0001 L CNN "MPN"
 F 5 "None" H 3550 6525 60  0001 L CNN "Manufacturer"
@@ -1286,12 +1285,12 @@ Connection ~ 3150 6250
 Wire Wire Line
 	3150 6250 2750 6250
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:R_0R_0603 R12
+L snickerdoodle-hdmi-breakout:R_0R_0603 R12
 U 1 1 5E6E16C4
 P 15250 2150
 F 0 "R12" V 15205 2220 60  0000 L CNN
 F 1 "R_0R_0603" H 15250 2000 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0603-res" H 15450 2350 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0603-res" H 15450 2350 60  0001 L CNN
 F 3 "" H 15250 2150 50  0001 C CNN
 F 4 "BOURNS" H 15450 2550 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 15450 2450 60  0001 L CNN "MPN"
@@ -1327,12 +1326,12 @@ Wire Wire Line
 Text GLabel 7300 1900 1    50   Input ~ 0
 3V3
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:1N4148WS D1
+L snickerdoodle-hdmi-breakout:1N4148WS D1
 U 1 1 5E607AC9
 P 3500 2750
 F 0 "D1" H 3450 2850 60  0000 C CNN
 F 1 "1N4148WS" H 3450 2950 60  0000 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:SOD-323F" H 3700 2950 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:SOD-323F" H 3700 2950 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf" H 3700 3050 60  0001 L CNN
 F 4 "1N4148WS" H 3700 3250 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 3700 3850 60  0001 L CNN "Manufacturer"
@@ -1346,12 +1345,12 @@ Wire Wire Line
 Wire Wire Line
 	9750 6650 9750 6750
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:R_10k_0402 R2
+L snickerdoodle-hdmi-breakout:R_10k_0402 R2
 U 1 1 5E61A6B9
 P 9750 6500
 F 0 "R2" V 9795 6430 60  0000 R CNN
 F 1 "R_10k_0402" H 9750 6350 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" H 9950 6700 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0402-res" H 9950 6700 60  0001 L CNN
 F 3 "" H 9750 6500 50  0001 C CNN
 F 4 "VISHAY" H 9950 6900 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 9950 6800 60  0001 L CNN "MPN"
@@ -1377,12 +1376,12 @@ V17
 Text Notes 1500 7050 0    50   ~ 0
 V18
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:685119134923 J2
+L snickerdoodle-hdmi-breakout:685119134923 J2
 U 1 1 5E64A095
 P 2750 2350
 F 0 "J2" H 2750 3287 60  0000 C CNN
 F 1 "685119134923" H 2750 3181 60  0000 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:HDMI_A_Female_685119134923" H 2950 2550 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:HDMI_A_Female_685119134923" H 2950 2550 60  0001 L CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 2950 2650 60  0001 L CNN
 F 4 "685119134923" H 2950 2850 60  0001 L CNN "MPN"
 F 5 "Amphenol" H 2950 3450 60  0001 L CNN "Manufacturer"
@@ -1390,15 +1389,15 @@ F 5 "Amphenol" H 2950 3450 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:BLM18PG121SN1D FB1
+L snickerdoodle-hdmi-breakout:BLM18PG121SN1D FB1
 U 1 1 5ED64AD2
 P 3850 3450
 F 0 "FB1" H 3850 3737 60  0000 C CNN
 F 1 "BLM18PG121SN1D" H 3850 3631 60  0000 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0603-res" H 4050 3650 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0603-res" H 4050 3650 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 4050 3750 60  0001 L CNN
 F 4 "BLM18PG121SN1D" H 4050 3950 60  0001 L CNN "MPN"
-F 5 "Murata Electronics North America" H 4050 4550 60  0001 L CNN "Manufacturer"
+F 5 "Murata Electronics North America " H 4050 4550 60  0001 L CNN "Manufacturer"
 	1    3850 3450
 	1    0    0    -1  
 $EndComp
@@ -3546,34 +3545,34 @@ HDMI_SDA_3V3
 Text Label 12300 7300 0    50   ~ 0
 HDMI_SCL_3V3
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:TP_SMD1MM TP5
+L snickerdoodle-hdmi-breakout:TP_SMD1MM TP5
 U 1 1 5E685C64
 P 12200 7300
 F 0 "TP5" V 12150 7300 50  0000 R CNN
 F 1 "TP_SMD1MM" H 12200 7200 50  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm" H 12400 7500 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:Testpoint_smd_1mm" H 12400 7500 60  0001 L CNN
 F 3 "" H 12400 7600 60  0001 L CNN
 	1    12200 7300
 	0    1    1    0   
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:TP_SMD1MM TP6
+L snickerdoodle-hdmi-breakout:TP_SMD1MM TP6
 U 1 1 5E68AC0C
 P 12200 7400
 F 0 "TP6" V 12250 7400 50  0000 R CNN
 F 1 "TP_SMD1MM" H 12200 7300 50  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm" H 12400 7600 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:Testpoint_smd_1mm" H 12400 7600 60  0001 L CNN
 F 3 "" H 12400 7700 60  0001 L CNN
 	1    12200 7400
 	0    1    1    0   
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:R_0R_0402 R14
+L snickerdoodle-hdmi-breakout:R_0R_0402 R14
 U 1 1 5E6C715E
 P 13500 7300
 F 0 "R14" H 13350 7350 60  0000 C CNN
 F 1 "R_0R_0402" H 13500 7150 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" H 13700 7500 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0402-res" H 13700 7500 60  0001 L CNN
 F 3 "" H 13500 7300 50  0001 C CNN
 F 4 "PANASONIC" H 13700 7700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 13700 7600 60  0001 L CNN "MPN"
@@ -3588,12 +3587,12 @@ Wire Wire Line
 Wire Wire Line
 	13350 7300 12300 7300
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:R_0R_0402 R13
+L snickerdoodle-hdmi-breakout:R_0R_0402 R13
 U 1 1 5E6C7819
 P 13150 7400
 F 0 "R13" H 13000 7450 60  0000 C CNN
 F 1 "R_0R_0402" H 13150 7250 60  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" H 13350 7600 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0402-res" H 13350 7600 60  0001 L CNN
 F 3 "" H 13150 7400 50  0001 C CNN
 F 4 "PANASONIC" H 13350 7800 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 13350 7700 60  0001 L CNN "MPN"
@@ -3604,45 +3603,45 @@ $EndComp
 Wire Wire Line
 	12300 7400 13000 7400
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:TP_SMD1MM TP1
+L snickerdoodle-hdmi-breakout:TP_SMD1MM TP1
 U 1 1 5E74470E
 P 2650 7250
 F 0 "TP1" V 2600 7250 50  0000 R CNN
 F 1 "TP_SMD1MM" H 2650 7150 50  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm" H 2850 7450 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:Testpoint_smd_1mm" H 2850 7450 60  0001 L CNN
 F 3 "" H 2850 7550 60  0001 L CNN
 	1    2650 7250
 	0    1    1    0   
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:TP_SMD1MM TP2
+L snickerdoodle-hdmi-breakout:TP_SMD1MM TP2
 U 1 1 5E7450D0
 P 2650 7350
 F 0 "TP2" V 2600 7350 50  0000 R CNN
 F 1 "TP_SMD1MM" H 2650 7250 50  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm" H 2850 7550 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:Testpoint_smd_1mm" H 2850 7550 60  0001 L CNN
 F 3 "" H 2850 7650 60  0001 L CNN
 	1    2650 7350
 	0    1    1    0   
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:TP_SMD1MM TP3
+L snickerdoodle-hdmi-breakout:TP_SMD1MM TP3
 U 1 1 5E745357
 P 2650 7550
 F 0 "TP3" V 2600 7550 50  0000 R CNN
 F 1 "TP_SMD1MM" H 2650 7450 50  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm" H 2850 7750 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:Testpoint_smd_1mm" H 2850 7750 60  0001 L CNN
 F 3 "" H 2850 7850 60  0001 L CNN
 	1    2650 7550
 	0    1    1    0   
 $EndComp
 $Comp
-L krtkl-breakybreaky-hdmi-expansion:TP_SMD1MM TP4
+L snickerdoodle-hdmi-breakout:TP_SMD1MM TP4
 U 1 1 5E7456DD
 P 2650 7650
 F 0 "TP4" V 2600 7650 50  0000 R CNN
 F 1 "TP_SMD1MM" H 2650 7550 50  0001 C CNN
-F 2 "krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm" H 2850 7850 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:Testpoint_smd_1mm" H 2850 7850 60  0001 L CNN
 F 3 "" H 2850 7950 60  0001 L CNN
 	1    2650 7650
 	0    1    1    0   

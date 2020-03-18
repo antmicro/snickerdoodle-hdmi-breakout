@@ -1,12 +1,12 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 1N4148WS
+# snickerdoodle-hdmi-breakout_1N4148WS
 #
-DEF 1N4148WS D 0 0 N N 1 F N
+DEF snickerdoodle-hdmi-breakout_1N4148WS D 0 0 N N 1 F N
 F0 "D" 0 100 60 H V C BNN
-F1 "1N4148WS" 0 -100 60 H V C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:SOD-323F" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_1N4148WS" 0 -100 60 H V C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:SOD-323F" 200 200 60 H I L CNN
 F3 "https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf" 200 300 60 H I L CNN
 F4 "1N4148WS" 200 500 60 H I L CNN "MPN"
 F5 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
@@ -18,12 +18,12 @@ X ~ K 200 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 685119134923
+# snickerdoodle-hdmi-breakout_685119134923
 #
-DEF 685119134923 J 0 40 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_685119134923 J 0 40 Y Y 1 F N
 F0 "J" -250 800 60 H V C CNN
-F1 "685119134923" 100 -800 60 H V C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:HDMI_A_Female_685119134923" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_685119134923" 100 -800 60 H V C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:HDMI_A_Female_685119134923" 200 200 60 H I L CNN
 F3 "https://www.farnell.com/cad/1641702.pdf?_ga=2.75511573.1630328358.1571653391-156563690.1566371002&_gac=1.138144260.1570692453.EAIaIQobChMIsbyuq5WR5QIVhKiaCh1YMAxzEAYYBiABEgKWa_D_BwE" 200 300 60 H I L CNN
 F4 "685119134923" 200 500 60 H I L CNN "MPN"
 F5 "Amphenol" 200 1100 60 H I L CNN "Manufacturer"
@@ -100,12 +100,12 @@ X ~ SH -300 -800 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BLM18PG121SN1D
+# snickerdoodle-hdmi-breakout_BLM18PG121SN1D
 #
-DEF BLM18PG121SN1D FB 0 40 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_BLM18PG121SN1D FB 0 40 Y Y 1 F N
 F0 "FB" -150 150 60 H V C CNN
-F1 "BLM18PG121SN1D" 0 -150 60 H V L CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:0603" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_BLM18PG121SN1D" 0 -150 60 H V L CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:0603" 200 200 60 H I L CNN
 F3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" 200 300 60 H I L CNN
 F4 "BLM18PG121SN1D" 200 500 60 H I L CNN "MPN"
 F5 "Murata Electronics North America" 200 1100 60 H I L CNN "Manufacturer"
@@ -118,12 +118,12 @@ X ~ 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BSS138AKA
+# snickerdoodle-hdmi-breakout_BSS138AKA
 #
-DEF BSS138AKA Q 0 0 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_BSS138AKA Q 0 0 Y Y 1 F N
 F0 "Q" -106 143 60 H V R CNN
-F1 "BSS138AKA" 136 0 60 V V C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:SOT-23-3" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_BSS138AKA" 136 0 60 V V C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:SOT-23-3" 200 200 60 H I L CNN
 F3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" 200 300 60 H I L CNN
 F4 "BSS138AKA" 200 500 60 H I L CNN "MPN"
 F5 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
@@ -151,12 +151,12 @@ X D 3 0 200 100 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# C_100n_0402_6V3
+# snickerdoodle-hdmi-breakout_C_100n_0402_6V3
 #
-DEF C_100n_0402_6V3 C 0 0 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_C_100n_0402_6V3 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "C_100n_0402_6V3" 0 -150 60 H I C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-cap" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_C_100n_0402_6V3" 0 -150 60 H I C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Walsin" 200 400 60 H I L CNN "Manufacturer"
 F5 "0402X104K6R3CT" 200 300 60 H I L CNN "MPN"
@@ -169,12 +169,12 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_10n_0402
+# snickerdoodle-hdmi-breakout_C_10n_0402
 #
-DEF C_10n_0402 C 0 0 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_C_10n_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "C_10n_0402" 0 -150 60 H I C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-cap" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_C_10n_0402" 0 -150 60 H I C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "AVX" 200 400 60 H I L CNN "Manufacturer"
 F5 "04025G103ZAT2A" 200 300 60 H I L CNN "MPN"
@@ -187,12 +187,12 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_22u_0805
+# snickerdoodle-hdmi-breakout_C_22u_0805
 #
-DEF C_22u_0805 C 0 0 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_C_22u_0805 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "C_22u_0805" 0 -150 60 H I C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:0805-cap" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_C_22u_0805" 0 -150 60 H I C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:0805-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
 F5 "MC0805X226M6R3CT" 200 300 60 H I L CNN "MPN"
@@ -205,12 +205,12 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_22u_0805_10V
+# snickerdoodle-hdmi-breakout_C_22u_0805_10V
 #
-DEF C_22u_0805_10V C 0 0 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_C_22u_0805_10V C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "C_22u_0805_10V" 0 -150 60 H I C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:0805-cap" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_C_22u_0805_10V" 0 -150 60 H I C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:0805-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "AVX" 200 400 60 H I L CNN "Manufacturer"
 F5 "0805ZD226MAT2A" 200 300 60 H I L CNN "MPN"
@@ -223,11 +223,11 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Earth
+# snickerdoodle-hdmi-breakout_Earth
 #
-DEF Earth #PWR 0 0 Y Y 1 F P
+DEF snickerdoodle-hdmi-breakout_Earth #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Earth" 0 -150 50 H I C CNN
+F1 "snickerdoodle-hdmi-breakout_Earth" 0 -150 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -239,11 +239,11 @@ X Earth 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# GND
+# snickerdoodle-hdmi-breakout_GND
 #
-DEF GND #PWR 0 0 Y Y 1 F P
+DEF snickerdoodle-hdmi-breakout_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND" 0 -150 50 H V C CNN
+F1 "snickerdoodle-hdmi-breakout_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -252,12 +252,12 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# KP-1608CGCK
+# snickerdoodle-hdmi-breakout_KP-1608CGCK
 #
-DEF KP-1608CGCK D 0 0 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_KP-1608CGCK D 0 0 Y Y 1 F N
 F0 "D" -200 150 60 H V C CNN
-F1 "KP-1608CGCK" 0 -150 60 H V C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:LED_0603" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_KP-1608CGCK" 0 -150 60 H V C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:LED_0603" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "KP-1608CGCK" 200 500 60 H I L CNN "MPN"
 F5 "KINGBRIGHT" 210 620 60 H I L CNN "Manufacturer"
@@ -273,12 +273,12 @@ X ~ 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_0R_0402
+# snickerdoodle-hdmi-breakout_R_0R_0402
 #
-DEF R_0R_0402 R 0 0 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_R_0R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "R_0R_0402" 0 -150 60 H I C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_R_0R_0402" 0 -150 60 H I C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
 F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
@@ -290,12 +290,12 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_0R_0603
+# snickerdoodle-hdmi-breakout_R_0R_0603
 #
-DEF R_0R_0603 R 0 0 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_R_0R_0603 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "R_0R_0603" 0 -150 60 H I C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:0603-res" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_R_0R_0603" 0 -150 60 H I C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:0603-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
 F5 "CR0603-J/-000ELF" 200 300 60 H I L CNN "MPN"
@@ -307,12 +307,12 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_100k_0402
+# snickerdoodle-hdmi-breakout_R_100k_0402
 #
-DEF R_100k_0402 R 0 0 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_R_100k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "R_100k_0402" 0 -150 60 H I C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_R_100k_0402" 0 -150 60 H I C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW0402100KFKEDHP" 200 300 60 H I L CNN "MPN"
@@ -324,12 +324,12 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_10k_0402
+# snickerdoodle-hdmi-breakout_R_10k_0402
 #
-DEF R_10k_0402 R 0 0 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_R_10k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "R_10k_0402" 0 -150 60 H I C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_R_10k_0402" 0 -150 60 H I C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW040210K0FKEDHP" 200 300 60 H I L CNN "MPN"
@@ -341,12 +341,12 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_1M_0603
+# snickerdoodle-hdmi-breakout_R_1M_0603
 #
-DEF R_1M_0603 R 0 0 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_R_1M_0603 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "R_1M_0603" 0 -150 60 H I C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:0603-res" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_R_1M_0603" 0 -150 60 H I C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:0603-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
 F5 "CR0603-JW-105GLF" 200 300 60 H I L CNN "MPN"
@@ -358,12 +358,12 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_330R_0402
+# snickerdoodle-hdmi-breakout_R_330R_0402
 #
-DEF R_330R_0402 R 0 0 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_R_330R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "R_330R_0402" 0 -150 60 H I C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_R_330R_0402" 0 -150 60 H I C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
 F5 "MCMR04X3300FTL" 200 300 60 H I L CNN "MPN"
@@ -375,12 +375,12 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_402k_0402
+# snickerdoodle-hdmi-breakout_R_402k_0402
 #
-DEF R_402k_0402 R 0 0 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_R_402k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "R_402k_0402" 0 -150 60 H I C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_R_402k_0402" 0 -150 60 H I C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW0402402KFKED" 200 300 60 H I L CNN "MPN"
@@ -392,12 +392,12 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_470R_0402
+# snickerdoodle-hdmi-breakout_R_470R_0402
 #
-DEF R_470R_0402 R 0 0 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_R_470R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "R_470R_0402" 0 -150 60 H I C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:0402-res" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_R_470R_0402" 0 -150 60 H I C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW0402470RFKED." 200 300 60 H I L CNN "MPN"
@@ -409,12 +409,12 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SMH-120-02-T-D
+# snickerdoodle-hdmi-breakout_SMH-120-02-T-D
 #
-DEF SMH-120-02-T-D J 0 40 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_SMH-120-02-T-D J 0 40 Y Y 1 F N
 F0 "J" 400 50 50 H V L CNN
-F1 "SMH-120-02-T-D" 490 -2070 50 H V C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:SMH-120-02-T-D" -400 -2160 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_SMH-120-02-T-D" 490 -2070 50 H V C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:SMH-120-02-T-D" -400 -2160 60 H I L CNN
 F3 "" 1000 -750 60 H I L CNN
 F4 "SMH-120-02-T-D" -300 -1900 60 H I L CNN "MPN"
 F5 "SAMTEC" -150 -2000 60 H I L CNN "Manufacturer"
@@ -463,12 +463,12 @@ X ~ 9 -100 -450 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TPD12S016PWR
+# snickerdoodle-hdmi-breakout_TPD12S016PWR
 #
-DEF TPD12S016PWR U 0 40 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_TPD12S016PWR U 0 40 Y Y 1 F N
 F0 "U" 50 150 50 H V C CNN
-F1 "TPD12S016PWR" 300 50 50 H V C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:TPD12S016PWR" 0 0 50 H I C CNN
+F1 "snickerdoodle-hdmi-breakout_TPD12S016PWR" 300 50 50 H V C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:TPD12S016PWR" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 S 0 0 800 -2200 0 1 0 f
@@ -499,12 +499,12 @@ X SDA_B 9 900 -1350 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# TPS61232DRCT
+# snickerdoodle-hdmi-breakout_TPS61232DRCT
 #
-DEF TPS61232DRCT U 0 40 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_TPS61232DRCT U 0 40 Y Y 1 F N
 F0 "U" 0 -100 50 H V C CNN
-F1 "TPS61232DRCT" 0 -200 50 H V C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:VSON-10-1EP_3x3mm" -100 -200 50 H I C CNN
+F1 "snickerdoodle-hdmi-breakout_TPS61232DRCT" 0 -200 50 H V C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:VSON-10-1EP_3x3mm" -100 -200 50 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/tps61232.pdf" 0 -100 50 H I C CNN
 DRAW
 S -250 600 250 -50 0 1 0 f
@@ -522,12 +522,12 @@ X EN 9 -350 300 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# TP_SMD1MM
+# snickerdoodle-hdmi-breakout_TP_SMD1MM
 #
-DEF TP_SMD1MM TP 0 0 N Y 1 F N
+DEF snickerdoodle-hdmi-breakout_TP_SMD1MM TP 0 0 N Y 1 F N
 F0 "TP" -100 50 50 H V R CNN
-F1 "TP_SMD1MM" 0 -100 50 H I C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_TP_SMD1MM" 0 -100 50 H I C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 DRAW
 C 0 0 22 0 1 0 N
@@ -535,12 +535,12 @@ X ~ 1 0 100 75 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# XFL4020-102MEB
+# snickerdoodle-hdmi-breakout_XFL4020-102MEB
 #
-DEF XFL4020-102MEB L 0 40 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_XFL4020-102MEB L 0 40 Y Y 1 F N
 F0 "L" -175 125 60 H V C CNN
-F1 "XFL4020-102MEB" 175 -75 60 H V C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:XFL4020-102MEB" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_XFL4020-102MEB" 175 -75 60 H V C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:XFL4020-102MEB" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "XFL4020-102MEB" 200 500 60 H I L CNN "MPN"
 F5 "Coilcraft" 200 1100 60 H I L CNN "Manufacturer"
@@ -562,36 +562,36 @@ X ~ 2 200 0 59 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antmicro_logo
+# snickerdoodle-hdmi-breakout_antmicro_logo
 #
-DEF antmicro_logo N 0 40 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_antmicro_logo N 0 40 Y Y 1 F N
 F0 "N" 0 350 50 H V C CNN
-F1 "antmicro_logo" 0 -200 50 H V C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:antmicro-logo" -100 250 50 H I C CNN
+F1 "snickerdoodle-hdmi-breakout_antmicro_logo" 0 -200 50 H V C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:antmicro-logo" -100 250 50 H I C CNN
 F3 "" 0 350 50 H I C CNN
 DRAW
 T 0 50 50 79 0 0 0 Logo Normal 0 C C
 ENDDRAW
 ENDDEF
 #
-# oshw_logo
+# snickerdoodle-hdmi-breakout_oshw_logo
 #
-DEF oshw_logo N 0 40 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_oshw_logo N 0 40 Y Y 1 F N
 F0 "N" 20 40 50 H V C CNN
-F1 "oshw_logo" 30 -150 50 H V C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:oshw-logo" 20 -240 50 H I C CNN
+F1 "snickerdoodle-hdmi-breakout_oshw_logo" 30 -150 50 H V C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:oshw-logo" 20 -240 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 T 0 30 -40 79 0 1 1 Logo Normal 0 C C
 ENDDRAW
 ENDDEF
 #
-# solder_jumper
+# snickerdoodle-hdmi-breakout_solder_jumper
 #
-DEF solder_jumper J 0 40 Y Y 1 F N
+DEF snickerdoodle-hdmi-breakout_solder_jumper J 0 40 Y Y 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "solder_jumper" 0 -100 50 H I C CNN
-F2 "krtkl-breakybreaky-hdmi-expansion-footprints:SolderJumper-0.6x1.4mm" 200 200 60 H I L CNN
+F1 "snickerdoodle-hdmi-breakout_solder_jumper" 0 -100 50 H I C CNN
+F2 "snickerdoodle-hdmi-breakout-footprints:SolderJumper-0.6x1.4mm" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "None" 200 300 60 H I L CNN "MPN"
 F5 "None" 200 375 60 H I L CNN "Manufacturer"
