@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Snickerdoodle HDMI breakout"
 Date "03/2020"
-Rev "1.0"
+Rev "1.0.1"
 Comp ""
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd."
@@ -24,6 +24,7 @@ F 3 "" H 9350 7300 50  0001 C CNN
 F 4 "VISHAY" H 9550 7700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 9550 7600 60  0001 L CNN "MPN"
 F 6 "10k" V 9297 7230 50  0000 R CNN "Val"
+F 7 "1" V 9350 7300 50  0001 C CNN "DNP"
 	1    9350 7300
 	0    -1   -1   0   
 $EndComp
@@ -37,6 +38,7 @@ F 2 "snickerdoodle-hdmi-breakout-footprints:SOT-23-3" H 9950 7200 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 9950 7300 60  0001 L CNN
 F 4 "BSS138AKA" H 9950 7500 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 9950 8100 60  0001 L CNN "Manufacturer"
+F 6 "1" H 9750 7000 50  0001 C CNN "DNP"
 	1    9750 7000
 	1    0    0    -1  
 $EndComp
@@ -139,7 +141,7 @@ F 3 "https://www.samtec.com/products/smh-120-02-t-d" H 4700 5350 60  0001 L CNN
 F 4 "SMH-120-02-T-D" H 3400 4200 60  0001 L CNN "MPN"
 F 5 "SAMTEC" H 3550 4100 60  0001 L CNN "Manufacturer"
 	1    3700 6100
-	1    0    0    -1  krtkl-breakybreaky-hdmi-expansi
+	1    0    0    -1  
 $EndComp
 $Comp
 L snickerdoodle-hdmi-breakout:TPD12S016PWR U1
@@ -147,8 +149,10 @@ U 1 1 5E611121
 P 14050 6050
 F 0 "U1" H 14450 6215 60  0000 C CNN
 F 1 "TPD12S016PWR" H 14450 6124 60  0000 C CNN
-F 2 "snickerdoodle-hdmi-breakout-footprints:TPD12S016PWR" H 14050 6050 50  0001 C CNN
+F 2 "snickerdoodle-hdmi-expansion-footprints:TPD12S016PWR" H 14050 6050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd12s016.pdf" H 14050 6050 50  0001 C CNN
+F 4 "TPD12S016PWR" H 14050 6050 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 14050 6050 50  0001 C CNN "Manufacturer"
 	1    14050 6050
 	1    0    0    -1  
 $EndComp
@@ -582,8 +586,10 @@ U 1 1 5E837FDA
 P 13650 2700
 F 0 "U2" H 13650 3465 60  0000 C CNN
 F 1 "TPS61232DRCT" H 13650 3374 60  0000 C CNN
-F 2 "snickerdoodle-hdmi-breakout-footprints:VSON-10-1EP_3x3mm" H 13550 2500 50  0001 C CNN
+F 2 "snickerdoodle-hdmi-expansion-footprints:VSON-10-1EP_3x3mm" H 13550 2500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps61232.pdf" H 13650 2600 50  0001 C CNN
+F 4 "TPS61232DRCT" H 13650 2700 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 13650 2700 50  0001 C CNN "Manufacturer"
 	1    13650 2700
 	1    0    0    -1  
 $EndComp
@@ -1355,6 +1361,7 @@ F 3 "" H 9750 6500 50  0001 C CNN
 F 4 "VISHAY" H 9950 6900 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 9950 6800 60  0001 L CNN "MPN"
 F 6 "10k" V 9697 6430 50  0000 R CNN "Val"
+F 7 "1" V 9750 6500 50  0001 C CNN "DNP"
 	1    9750 6500
 	0    -1   -1   0   
 $EndComp
@@ -3654,4 +3661,10 @@ Text Notes 1500 7550 0    50   ~ 0
 V20
 Text Notes 1500 7650 0    50   ~ 0
 W20
+Text Notes 9850 7200 0    50   ~ 0
+DNP
+Text Notes 9700 6550 1    50   ~ 0
+DNP
+Text Notes 9300 7400 1    50   ~ 0
+DNP
 $EndSCHEMATC
