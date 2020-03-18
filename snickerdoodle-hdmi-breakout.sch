@@ -1388,10 +1388,10 @@ U 1 1 5E64A095
 P 2750 2350
 F 0 "J2" H 2750 3287 60  0000 C CNN
 F 1 "685119134923" H 2750 3181 60  0000 C CNN
-F 2 "snickerdoodle-hdmi-breakout-footprints:HDMI_A_Female_685119134923" H 2950 2550 60  0001 L CNN
-F 3 "https://en.wikipedia.org/wiki/HDMI" H 2950 2650 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-expansion-footprints:HDMI_A_Female_685119134923" H 2950 2550 60  0001 L CNN
+F 3 "https://www.farnell.com/cad/1641702.pdf?_ga=2.75511573.1630328358.1571653391-156563690.1566371002&_gac=1.138144260.1570692453.EAIaIQobChMIsbyuq5WR5QIVhKiaCh1YMAxzEAYYBiABEgKWa_D_BwE" H 2950 2650 60  0001 L CNN
 F 4 "685119134923" H 2950 2850 60  0001 L CNN "MPN"
-F 5 "Amphenol" H 2950 3450 60  0001 L CNN "Manufacturer"
+F 5 "Wurth Elektronik" H 2950 3450 60  0001 L CNN "Manufacturer"
 	1    2750 2350
 	1    0    0    -1  
 $EndComp

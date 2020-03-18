@@ -24,9 +24,9 @@ DEF snickerdoodle-hdmi-breakout_685119134923 J 0 40 Y Y 1 F N
 F0 "J" -250 800 60 H V C CNN
 F1 "snickerdoodle-hdmi-breakout_685119134923" 100 -800 60 H V C CNN
 F2 "snickerdoodle-hdmi-expansion-footprints:HDMI_A_Female_685119134923" 200 200 60 H I L CNN
-F3 "https://www.farnell.com/cad/1641702.pdf?_ga=2.75511573.1630328358.1571653391-156563690.1566371002&_gac=1.138144260.1570692453.EAIaIQobChMIsbyuq5WR5QIVhKiaCh1YMAxzEAYYBiABEgKWa_D_BwE" 200 300 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
 F4 "685119134923" 200 500 60 H I L CNN "MPN"
-F5 "Amphenol" 200 1100 60 H I L CNN "Manufacturer"
+F5 "Wurth Elektronik" 200 1100 60 H I L CNN "Manufacturer"
 DRAW
 A -275 -701 25 1777 900 0 1 0 N -300 -700 -275 -675
 S -50 -473 -40 -423 0 1 0 F
