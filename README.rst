@@ -9,7 +9,7 @@ This repository contains open hardware design files for expansion board compatib
 The design files were created in KiCad.
 The expansion board breaks out HDMI interface on a regular HDMI connector.
 The TMDS data lanes from this connector are connected to FPGA fabric in Zynq 7000 All programmable chip on a Snickerdoodle module.
-The expansion board should be connected to the ``JB2`` pinhead available on the breakyBreaky board. 
+The expansion board should be connected to the ``JB2`` pinhead available on the breakyBreaky board. It is compatible with breakyBreaky rev.3.0.
 
 Dimensions and layout
 ---------------------
