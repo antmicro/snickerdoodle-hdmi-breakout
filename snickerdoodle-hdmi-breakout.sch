@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:snickerdoodle-hdmi-breakout-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Snickerdoodle HDMI breakout"
 Date "03/2020"
-Rev "1.0.1"
+Rev "1.1.0"
 Comp ""
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd."
