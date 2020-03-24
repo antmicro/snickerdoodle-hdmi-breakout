@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:snickerdoodle-hdmi-breakout-cache
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -1382,19 +1383,6 @@ Text Notes 1500 6950 0    50   ~ 0
 V17
 Text Notes 1500 7050 0    50   ~ 0
 V18
-$Comp
-L snickerdoodle-hdmi-breakout:685119134923 J2
-U 1 1 5E64A095
-P 2750 2350
-F 0 "J2" H 2750 3287 60  0000 C CNN
-F 1 "685119134923" H 2750 3181 60  0000 C CNN
-F 2 "snickerdoodle-hdmi-expansion-footprints:HDMI_A_Female_685119134923" H 2950 2550 60  0001 L CNN
-F 3 "https://www.farnell.com/cad/1641702.pdf?_ga=2.75511573.1630328358.1571653391-156563690.1566371002&_gac=1.138144260.1570692453.EAIaIQobChMIsbyuq5WR5QIVhKiaCh1YMAxzEAYYBiABEgKWa_D_BwE" H 2950 2650 60  0001 L CNN
-F 4 "685119134923" H 2950 2850 60  0001 L CNN "MPN"
-F 5 "Wurth Elektronik" H 2950 3450 60  0001 L CNN "Manufacturer"
-	1    2750 2350
-	1    0    0    -1  
-$EndComp
 $Comp
 L snickerdoodle-hdmi-breakout:BLM18PG121SN1D FB1
 U 1 1 5ED64AD2
@@ -3667,4 +3655,17 @@ Text Notes 9700 6550 1    50   ~ 0
 DNP
 Text Notes 9300 7400 1    50   ~ 0
 DNP
+$Comp
+L antmicroUSBDVIHDMIConnectors:685119134923 J2
+U 1 1 5E7AA1A0
+P 2750 2350
+F 0 "J2" H 2750 3287 60  0000 C CNN
+F 1 "685119134923" H 2750 3181 60  0000 C CNN
+F 2 "antmicro-footprints:HDMI_A_Female_685119134923" H 2950 2550 60  0001 L CNN
+F 3 "https://www.farnell.com/cad/1641702.pdf?_ga=2.75511573.1630328358.1571653391-156563690.1566371002&_gac=1.138144260.1570692453.EAIaIQobChMIsbyuq5WR5QIVhKiaCh1YMAxzEAYYBiABEgKWa_D_BwE" H 2950 2650 60  0001 L CNN
+F 4 "685119134923" H 2950 2850 60  0001 L CNN "MPN"
+F 5 "Amphenol" H 2950 3450 60  0001 L CNN "Manufacturer"
+	1    2750 2350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,32 +1,15 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# snickerdoodle-hdmi-breakout_1N4148WS
+# antmicroUSBDVIHDMIConnectors_685119134923
 #
-DEF snickerdoodle-hdmi-breakout_1N4148WS D 0 0 N N 1 F N
-F0 "D" 0 100 60 H V C BNN
-F1 "snickerdoodle-hdmi-breakout_1N4148WS" 0 -100 60 H V C CNN
-F2 "snickerdoodle-hdmi-expansion-footprints:SOD-323F" 200 200 60 H I L CNN
-F3 "https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf" 200 300 60 H I L CNN
-F4 "1N4148WS" 200 500 60 H I L CNN "MPN"
-F5 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
-DRAW
-P 2 0 1 0 50 50 50 -50 N
-P 4 0 1 0 -50 50 -50 -50 50 0 -50 50 F
-X ~ A -200 0 150 R 50 50 1 1 P
-X ~ K 200 0 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# snickerdoodle-hdmi-breakout_685119134923
-#
-DEF snickerdoodle-hdmi-breakout_685119134923 J 0 40 Y Y 1 F N
+DEF antmicroUSBDVIHDMIConnectors_685119134923 J 0 40 Y Y 1 F N
 F0 "J" -250 800 60 H V C CNN
-F1 "snickerdoodle-hdmi-breakout_685119134923" 100 -800 60 H V C CNN
-F2 "snickerdoodle-hdmi-expansion-footprints:HDMI_A_Female_685119134923" 200 200 60 H I L CNN
-F3 "" 200 300 60 H I L CNN
+F1 "antmicroUSBDVIHDMIConnectors_685119134923" 100 -800 60 H V C CNN
+F2 "antmicro-footprints:HDMI_A_Female_685119134923" 200 200 60 H I L CNN
+F3 "https://www.farnell.com/cad/1641702.pdf?_ga=2.75511573.1630328358.1571653391-156563690.1566371002&_gac=1.138144260.1570692453.EAIaIQobChMIsbyuq5WR5QIVhKiaCh1YMAxzEAYYBiABEgKWa_D_BwE" 200 300 60 H I L CNN
 F4 "685119134923" 200 500 60 H I L CNN "MPN"
-F5 "Wurth Elektronik" 200 1100 60 H I L CNN "Manufacturer"
+F5 "Amphenol" 200 1100 60 H I L CNN "Manufacturer"
 DRAW
 A -275 -701 25 1777 900 0 1 0 N -300 -700 -275 -675
 S -50 -473 -40 -423 0 1 0 F
@@ -100,6 +83,23 @@ X ~ SH -300 -800 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# snickerdoodle-hdmi-breakout_1N4148WS
+#
+DEF snickerdoodle-hdmi-breakout_1N4148WS D 0 0 N N 1 F N
+F0 "D" 0 100 60 H V C BNN
+F1 "snickerdoodle-hdmi-breakout_1N4148WS" 0 -100 60 H V C CNN
+F2 "snickerdoodle-hdmi-expansion-footprints:SOD-323F" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf" 200 300 60 H I L CNN
+F4 "1N4148WS" 200 500 60 H I L CNN "MPN"
+F5 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+P 2 0 1 0 50 50 50 -50 N
+P 4 0 1 0 -50 50 -50 -50 50 0 -50 50 F
+X ~ A -200 0 150 R 50 50 1 1 P
+X ~ K 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # snickerdoodle-hdmi-breakout_BLM18PG121SN1D
 #
 DEF snickerdoodle-hdmi-breakout_BLM18PG121SN1D FB 0 40 Y Y 1 F N
@@ -153,7 +153,7 @@ ENDDEF
 #
 # snickerdoodle-hdmi-breakout_C_100n_0402_6V3
 #
-DEF snickerdoodle-hdmi-breakout_C_100n_0402_6V3 C 0 0 Y Y 1 F N
+DEF ~snickerdoodle-hdmi-breakout_C_100n_0402_6V3 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "snickerdoodle-hdmi-breakout_C_100n_0402_6V3" 0 -150 60 H I C CNN
 F2 "snickerdoodle-hdmi-expansion-footprints:0402-cap" 200 200 60 H I L CNN
@@ -171,7 +171,7 @@ ENDDEF
 #
 # snickerdoodle-hdmi-breakout_C_10n_0402
 #
-DEF snickerdoodle-hdmi-breakout_C_10n_0402 C 0 0 Y Y 1 F N
+DEF ~snickerdoodle-hdmi-breakout_C_10n_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "snickerdoodle-hdmi-breakout_C_10n_0402" 0 -150 60 H I C CNN
 F2 "snickerdoodle-hdmi-expansion-footprints:0402-cap" 200 200 60 H I L CNN
@@ -189,7 +189,7 @@ ENDDEF
 #
 # snickerdoodle-hdmi-breakout_C_22u_0805
 #
-DEF snickerdoodle-hdmi-breakout_C_22u_0805 C 0 0 Y Y 1 F N
+DEF ~snickerdoodle-hdmi-breakout_C_22u_0805 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "snickerdoodle-hdmi-breakout_C_22u_0805" 0 -150 60 H I C CNN
 F2 "snickerdoodle-hdmi-expansion-footprints:0805-cap" 200 200 60 H I L CNN
@@ -207,7 +207,7 @@ ENDDEF
 #
 # snickerdoodle-hdmi-breakout_C_22u_0805_10V
 #
-DEF snickerdoodle-hdmi-breakout_C_22u_0805_10V C 0 0 Y Y 1 F N
+DEF ~snickerdoodle-hdmi-breakout_C_22u_0805_10V C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "snickerdoodle-hdmi-breakout_C_22u_0805_10V" 0 -150 60 H I C CNN
 F2 "snickerdoodle-hdmi-expansion-footprints:0805-cap" 200 200 60 H I L CNN
@@ -225,7 +225,7 @@ ENDDEF
 #
 # snickerdoodle-hdmi-breakout_Earth
 #
-DEF snickerdoodle-hdmi-breakout_Earth #PWR 0 0 Y Y 1 F P
+DEF ~snickerdoodle-hdmi-breakout_Earth #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
 F1 "snickerdoodle-hdmi-breakout_Earth" 0 -150 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -275,7 +275,7 @@ ENDDEF
 #
 # snickerdoodle-hdmi-breakout_R_0R_0402
 #
-DEF snickerdoodle-hdmi-breakout_R_0R_0402 R 0 0 Y Y 1 F N
+DEF ~snickerdoodle-hdmi-breakout_R_0R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "snickerdoodle-hdmi-breakout_R_0R_0402" 0 -150 60 H I C CNN
 F2 "snickerdoodle-hdmi-expansion-footprints:0402-res" 200 200 60 H I L CNN
@@ -292,7 +292,7 @@ ENDDEF
 #
 # snickerdoodle-hdmi-breakout_R_0R_0603
 #
-DEF snickerdoodle-hdmi-breakout_R_0R_0603 R 0 0 Y Y 1 F N
+DEF ~snickerdoodle-hdmi-breakout_R_0R_0603 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "snickerdoodle-hdmi-breakout_R_0R_0603" 0 -150 60 H I C CNN
 F2 "snickerdoodle-hdmi-expansion-footprints:0603-res" 200 200 60 H I L CNN
@@ -309,7 +309,7 @@ ENDDEF
 #
 # snickerdoodle-hdmi-breakout_R_100k_0402
 #
-DEF snickerdoodle-hdmi-breakout_R_100k_0402 R 0 0 Y Y 1 F N
+DEF ~snickerdoodle-hdmi-breakout_R_100k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "snickerdoodle-hdmi-breakout_R_100k_0402" 0 -150 60 H I C CNN
 F2 "snickerdoodle-hdmi-expansion-footprints:0402-res" 200 200 60 H I L CNN
@@ -326,7 +326,7 @@ ENDDEF
 #
 # snickerdoodle-hdmi-breakout_R_10k_0402
 #
-DEF snickerdoodle-hdmi-breakout_R_10k_0402 R 0 0 Y Y 1 F N
+DEF ~snickerdoodle-hdmi-breakout_R_10k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "snickerdoodle-hdmi-breakout_R_10k_0402" 0 -150 60 H I C CNN
 F2 "snickerdoodle-hdmi-expansion-footprints:0402-res" 200 200 60 H I L CNN
@@ -343,7 +343,7 @@ ENDDEF
 #
 # snickerdoodle-hdmi-breakout_R_1M_0603
 #
-DEF snickerdoodle-hdmi-breakout_R_1M_0603 R 0 0 Y Y 1 F N
+DEF ~snickerdoodle-hdmi-breakout_R_1M_0603 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "snickerdoodle-hdmi-breakout_R_1M_0603" 0 -150 60 H I C CNN
 F2 "snickerdoodle-hdmi-expansion-footprints:0603-res" 200 200 60 H I L CNN
@@ -360,7 +360,7 @@ ENDDEF
 #
 # snickerdoodle-hdmi-breakout_R_330R_0402
 #
-DEF snickerdoodle-hdmi-breakout_R_330R_0402 R 0 0 Y Y 1 F N
+DEF ~snickerdoodle-hdmi-breakout_R_330R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "snickerdoodle-hdmi-breakout_R_330R_0402" 0 -150 60 H I C CNN
 F2 "snickerdoodle-hdmi-expansion-footprints:0402-res" 200 200 60 H I L CNN
@@ -377,7 +377,7 @@ ENDDEF
 #
 # snickerdoodle-hdmi-breakout_R_402k_0402
 #
-DEF snickerdoodle-hdmi-breakout_R_402k_0402 R 0 0 Y Y 1 F N
+DEF ~snickerdoodle-hdmi-breakout_R_402k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "snickerdoodle-hdmi-breakout_R_402k_0402" 0 -150 60 H I C CNN
 F2 "snickerdoodle-hdmi-expansion-footprints:0402-res" 200 200 60 H I L CNN
@@ -394,7 +394,7 @@ ENDDEF
 #
 # snickerdoodle-hdmi-breakout_R_470R_0402
 #
-DEF snickerdoodle-hdmi-breakout_R_470R_0402 R 0 0 Y Y 1 F N
+DEF ~snickerdoodle-hdmi-breakout_R_470R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "snickerdoodle-hdmi-breakout_R_470R_0402" 0 -150 60 H I C CNN
 F2 "snickerdoodle-hdmi-expansion-footprints:0402-res" 200 200 60 H I L CNN
@@ -528,7 +528,7 @@ ENDDEF
 #
 # snickerdoodle-hdmi-breakout_TP_SMD1MM
 #
-DEF snickerdoodle-hdmi-breakout_TP_SMD1MM TP 0 0 N Y 1 F N
+DEF ~snickerdoodle-hdmi-breakout_TP_SMD1MM TP 0 0 N Y 1 F N
 F0 "TP" -100 50 50 H V R CNN
 F1 "snickerdoodle-hdmi-breakout_TP_SMD1MM" 0 -100 50 H I C CNN
 F2 "snickerdoodle-hdmi-expansion-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
@@ -592,7 +592,7 @@ ENDDEF
 #
 # snickerdoodle-hdmi-breakout_solder_jumper
 #
-DEF snickerdoodle-hdmi-breakout_solder_jumper J 0 40 Y Y 1 F N
+DEF ~snickerdoodle-hdmi-breakout_solder_jumper J 0 40 Y Y 1 F N
 F0 "J" 0 100 50 H V C CNN
 F1 "snickerdoodle-hdmi-breakout_solder_jumper" 0 -100 50 H I C CNN
 F2 "snickerdoodle-hdmi-expansion-footprints:SolderJumper-0.6x1.4mm" 200 200 60 H I L CNN
