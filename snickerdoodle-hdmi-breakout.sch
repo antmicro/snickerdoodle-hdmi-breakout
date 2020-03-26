@@ -721,20 +721,6 @@ F 6 "100k" V 14453 3120 50  0000 L CNN "Val"
 	1    14400 3050
 	0    1    1    0   
 $EndComp
-$Comp
-L snickerdoodle-hdmi-breakout:R_402k_0402 R10
-U 1 1 5E8DBEE3
-P 14400 2650
-F 0 "R10" V 14355 2720 60  0000 L CNN
-F 1 "R_402k_0402" H 14400 2500 60  0001 C CNN
-F 2 "snickerdoodle-hdmi-breakout-footprints:0402-res" H 14600 2850 60  0001 L CNN
-F 3 "" H 14400 2650 50  0001 C CNN
-F 4 "VISHAY" H 14600 3050 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402402KFKED" H 14600 2950 60  0001 L CNN "MPN"
-F 6 "402k" V 14453 2720 50  0000 L CNN "Val"
-	1    14400 2650
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	14400 2800 14400 2850
 Wire Wire Line
@@ -3655,16 +3641,30 @@ DNP
 Text Notes 9300 7400 1    50   ~ 0
 DNP
 $Comp
-L antmicroUSBDVIHDMIConnectors:685119134923 J2
+L snickerdoodle-hdmi-breakout:685119134923 J2
 U 1 1 5E7AA1A0
 P 2750 2350
 F 0 "J2" H 2750 3287 60  0000 C CNN
 F 1 "685119134923" H 2750 3181 60  0000 C CNN
-F 2 "antmicro-footprints:HDMI_A_Female_685119134923" H 2950 2550 60  0001 L CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:HDMI_A_Female_685119134923" H 2950 2550 60  0001 L CNN
 F 3 "https://www.farnell.com/cad/1641702.pdf?_ga=2.75511573.1630328358.1571653391-156563690.1566371002&_gac=1.138144260.1570692453.EAIaIQobChMIsbyuq5WR5QIVhKiaCh1YMAxzEAYYBiABEgKWa_D_BwE" H 2950 2650 60  0001 L CNN
 F 4 "685119134923" H 2950 2850 60  0001 L CNN "MPN"
 F 5 "Amphenol" H 2950 3450 60  0001 L CNN "Manufacturer"
 	1    2750 2350
 	1    0    0    -1  
+$EndComp
+$Comp
+L snickerdoodle-hdmi-breakout:R_0R_0402 R10
+U 1 1 5E7DBB4E
+P 14400 2650
+F 0 "R10" H 14400 2863 60  0000 C CNN
+F 1 "R_0R_0402" H 14400 2500 60  0001 C CNN
+F 2 "snickerdoodle-hdmi-breakout-footprints:0402-res" H 14600 2850 60  0001 L CNN
+F 3 "" H 14400 2650 50  0001 C CNN
+F 4 "PANASONIC" H 14600 3050 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 14600 2950 60  0001 L CNN "MPN"
+F 6 "0R" H 14400 2765 50  0000 C CNN "Val"
+	1    14400 2650
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
